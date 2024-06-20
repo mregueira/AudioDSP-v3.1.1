@@ -11,7 +11,7 @@ Audio DSP - 3.1.1
 ## Features
 - DC Input +6V/1A
 - Audio Channels: 5.1
-- SigmaDSP ADAU1452
+- SigmaDSP ADAU1462
    - I2C control for DSP
 - Sampling frequency (default): 192KHz
 - 24 bit ADC PCM1862 x3
