@@ -1,1 +1,5 @@
-Record=TopLevelDocument|FileName=AudioDSP-v3.1.1_top.SchDoc|SheetNumber=1
+Record=TopLevelDocument|FileName=ADC_Block.SchDoc|SheetNumber=5
+Record=NoMainPathDocument|SourceDocument=ADC_Block.SchDoc|FileName=AudioDSP-v3.1.1_top.SchDoc|SheetNumber=1
+Record=NoMainPathDocument|SourceDocument=ADC_Block.SchDoc|FileName=CLK_Block.SchDoc|SheetNumber=3
+Record=NoMainPathDocument|SourceDocument=ADC_Block.SchDoc|FileName=DAC_Block.SchDoc|SheetNumber=4
+Record=NoMainPathDocument|SourceDocument=ADC_Block.SchDoc|FileName=DSP_Block.SchDoc|SheetNumber=2
