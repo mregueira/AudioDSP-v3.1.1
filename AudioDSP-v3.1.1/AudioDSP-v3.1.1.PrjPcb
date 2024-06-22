@@ -1653,14 +1653,6 @@ Order22=23
 IndexEnabled22=0
 IndexStartValue22=1
 Suffix22=
-UniqueIDPath23=\TYUJEXRN
-DocumentName23=THM_Block.SchDoc
-IsEnabled23=1
-SelectionScope23=All
-Order23=24
-IndexEnabled23=0
-IndexStartValue23=1
-Suffix23=
 
 [PrjClassGen]
 CompClassManualEnabled=0
@@ -1672,10 +1664,16 @@ NetClassManualEnabled=1
 NetClassSeparateForBusSections=0
 
 [LibraryUpdateOptions]
-SelectedOnly=0
+SelectedOnly=1
 UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
+ComponentLibIdentifierKind0=Library Name And Type
+ComponentLibraryIdentifier0=LIB2022 - Semiconductors.IntLib
+ComponentDesignItemID0=FZT953
+ComponentSymbolReference0=FZT953
+ComponentUpdate0=1
+ComponentIsDeviceSheet0=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1689,6 +1687,21 @@ RemoveParameters=0
 AddModels=1
 RemoveModels=1
 UpdateCurrentModels=1
+ParameterName0=Comment
+ParameterUpdate0=1
+ParameterName1=Component Kind
+ParameterUpdate1=1
+ParameterName2=Description
+ParameterUpdate2=1
+ParameterName3=JLCPart
+ParameterUpdate3=1
+ParameterName4=Library Reference
+ParameterUpdate4=1
+ModelTypeGroup0=PCBLIB
+ModelTypeUpdate0=1
+ModelType0=PCBLIB
+ModelName0=SOT223-DN
+ModelUpdate0=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
