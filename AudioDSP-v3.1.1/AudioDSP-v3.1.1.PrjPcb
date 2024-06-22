@@ -187,23 +187,6 @@ GenerateClassCluster=0
 DocumentUniqueId=VQUAKHOU
 
 [Document9]
-DocumentPath=SCH\THM_Block.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=6
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=PVNPZPLI
-
-[Document10]
 DocumentPath=SCH\POW_Block.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -220,7 +203,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=JSKAXMRE
 
-[Document11]
+[Document10]
 DocumentPath=SCH\MCU_Block.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -237,7 +220,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=NETQQERT
 
-[Document12]
+[Document11]
 DocumentPath=SCH\ADC_Block.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -254,7 +237,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document13]
+[Document12]
 DocumentPath=SCH\LPF_Block.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -271,7 +254,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document14]
+[Document13]
 DocumentPath=SCH\CTRL_Connectors.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -288,7 +271,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ODNPNUWD
 
-[Document15]
+[Document14]
 DocumentPath=SCH\MCU_Block.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -305,7 +288,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document16]
+[Document15]
 DocumentPath=SCH\ADC_Interface.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -322,7 +305,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=LFFSXJUR
 
-[Document17]
+[Document16]
 DocumentPath=SCH\CTRL_Connectors.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -339,7 +322,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document18]
+[Document17]
 DocumentPath=SCH\DAC_Interface.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -356,7 +339,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=RJZMNLPL
 
-[Document19]
+[Document18]
 DocumentPath=SCH\DSP_Interface.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -373,7 +356,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=VGDKWMVX
 
-[Document20]
+[Document19]
 DocumentPath=SCH\LPF_Interface.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -390,24 +373,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=JLTVILUS
 
-[Document21]
-DocumentPath=SCH\THM_Block.Harness
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document22]
+[Document20]
 DocumentPath=SCH\IN_Connectors.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -424,7 +390,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=TKHHDBQP
 
-[Document23]
+[Document21]
 DocumentPath=SCH\OUT_Connectors.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -441,7 +407,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HQUQORKC
 
-[Document24]
+[Document22]
 DocumentPath=SCH\IN_Connectors.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -458,7 +424,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document25]
+[Document23]
 DocumentPath=SCH\OUT_Connectors.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -475,7 +441,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document26]
+[Document24]
 DocumentPath=AudioDSP-v3.1.1.Annotation
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -492,7 +458,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document27]
+[Document25]
 DocumentPath=SCH\DAC_Interface.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -509,7 +475,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document28]
+[Document26]
 DocumentPath=SCH\DSP_Interface.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -526,7 +492,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document29]
+[Document27]
 DocumentPath=SCH\ADC_Interface.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -543,7 +509,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document30]
+[Document28]
 DocumentPath=PCB\AudioDSP-v3.1.1.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -559,6 +525,23 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=EWBRLCKC
+
+[Document29]
+DocumentPath=SCH\POW_Block.Harness
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
 
 [ProjectVariant1]
 UniqueId=6a6286e3-e0bb-4940-9c31-3c63b7633b0f
