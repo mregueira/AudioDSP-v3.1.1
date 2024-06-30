@@ -543,15 +543,50 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[Document30]
+DocumentPath=DOC\job\JLCPCB-4Layer.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [ProjectVariant1]
 UniqueId=6a6286e3-e0bb-4940-9c31-3c63b7633b0f
 Description=For Assembly
 AllowFabrication=0
 ParameterCount=0
-VariationCount=0
+VariationCount=14
+Variation1=Designator=J8_CTRL|UniqueId=\OEDAQFGJ\THFDJZEN|Kind=1|AlternatePart=
+Variation2=Designator=J6_CTRL|UniqueId=\OEDAQFGJ\MYXRRNZT|Kind=1|AlternatePart=
+Variation3=Designator=J7_CTRL|UniqueId=\OEDAQFGJ\OGUDGZUY|Kind=1|AlternatePart=
+Variation4=Designator=J2_IN_CONN|UniqueId=\RGBSDEFP\NRQGBREV|Kind=1|AlternatePart=
+Variation5=Designator=J1_IN_CONN|UniqueId=\RGBSDEFP\HRGOLZVE|Kind=1|AlternatePart=
+Variation6=Designator=C1_IN_CONN|UniqueId=\RGBSDEFP\QRGXIZMZ|Kind=1|AlternatePart=
+Variation7=Designator=J3_IN_CONN|UniqueId=\RGBSDEFP\GAWSWJYF|Kind=1|AlternatePart=
+Variation8=Designator=J4_IN_CONN|UniqueId=\RGBSDEFP\RMHVHPMC|Kind=1|AlternatePart=
+Variation9=Designator=J5_IN_CONN|UniqueId=\RGBSDEFP\GUWMDFLU|Kind=1|AlternatePart=
+Variation10=Designator=J10_OUT_CONN|UniqueId=\KLWNHVCC\BHTLRKQX|Kind=1|AlternatePart=
+Variation11=Designator=J9_OUT_CONN|UniqueId=\KLWNHVCC\RWDWPSHP|Kind=1|AlternatePart=
+Variation12=Designator=U2_POW|UniqueId=\UPXQJOPP\LADCIJFV|Kind=1|AlternatePart=
+Variation13=Designator=U1_POW|UniqueId=\UPXQJOPP\BUQGCMIL|Kind=1|AlternatePart=
+Variation14=Designator=U3_POW|UniqueId=\UPXQJOPP\BOFNHPKY|Kind=1|AlternatePart=
 ParamVariationCount=0
 
 [GeneratedDocument1]
+DocumentPath=Project Outputs for AudioDSP-v3.1.1\AudioDSP-v3.1.1 - BOM\Bill of Materials-AudioDSP-v3.1.1(For Assembly).xlsx
+DItemRevisionGUID=
+
+[GeneratedDocument2]
 DocumentPath=Project Outputs for AudioDSP-v3.1.1\Design Rule Check - AudioDSP-v3.1.html
 DItemRevisionGUID=
 
