@@ -551,6 +551,10 @@ ParameterCount=0
 VariationCount=0
 ParamVariationCount=0
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for AudioDSP-v3.1.1\Design Rule Check - AudioDSP-v3.1.html
+DItemRevisionGUID=
+
 [Configuration1]
 Name=Sources
 ParameterCount=0
