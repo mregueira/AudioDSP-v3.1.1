@@ -1,1 +1,15 @@
-__pointer_setup__, MP1_DM1, 16, 12, 12, 12, 0
+__pointer_setup__, MP2_DM0, 20, 1956, 1956, 56, 0
+__pointer_setup__, MP2_DM0, 24, 2012, 2012, 48, 0
+__pointer_setup__, MP2_DM0, 28, 2060, 2060, 36, 0
+__pointer_setup__, MP2_DM0, 32, 2096, 2096, 24, 0
+__pointer_setup__, MP2_DM0, 36, 2120, 2120, 8, 0
+__pointer_setup__, MP1_DM1, 40, 172, 172, 124, 0
+__pointer_setup__, MP1_DM1, 44, 296, 296, 120, 0
+__pointer_setup__, MP1_DM1, 48, 416, 416, 96, 0
+__pointer_setup__, MP1_DM1, 52, 512, 512, 76, 0
+__pointer_setup__, MP1_DM1, 56, 588, 588, 48, 0
+__pointer_setup__, MP2_DM1, 60, 636, 636, 56, 0
+__pointer_setup__, MP2_DM1, 64, 692, 692, 48, 0
+__pointer_setup__, MP2_DM1, 68, 740, 740, 36, 0
+__pointer_setup__, MP2_DM1, 72, 776, 776, 24, 0
+__pointer_setup__, MP2_DM1, 76, 800, 800, 8, 0
