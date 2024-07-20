@@ -1,7 +1,7 @@
 /*
  * File:           C:\Users\marce\OneDrive\Desktop\GitHub Repos\AudioDSP-v3.1.1\AudioDSP-v3.1.1\DOC\software\STM32\Core\Inc\DSP\DSP_IC_1_REG.h
  *
- * Created:        Wednesday, July 17, 2024 9:21:56 PM
+ * Created:        Saturday, July 20, 2024 12:43:43 PM
  * Description:    DSP:IC 1 control register definitions.
  *
  * This software is distributed in the hope that it will be useful,

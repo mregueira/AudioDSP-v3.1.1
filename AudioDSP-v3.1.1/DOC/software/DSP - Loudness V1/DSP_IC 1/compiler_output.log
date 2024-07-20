@@ -1,19 +1,19 @@
 ADAU145X Assembler, Analog Devices Inc.
 Version: 4.7.0,1827  (built 4/5/2022)
 
-##### Compile Started: Wednesday, July 17, 2024 9:21:49 PM #####
+##### Compile Started: Saturday, July 20, 2024 12:43:34 PM #####
 ADAU145X Assembler, Analog Devices Inc.
 Version: 4.7.0,1827  (built 4/5/2022)
 
-##### Compile Started: Wednesday, July 17, 2024 9:21:49 PM #####
+##### Compile Started: Saturday, July 20, 2024 12:43:34 PM #####
 ##### Compile succeeded:  0 errors, 0 warnings #####
 
 ##### Summary #####
-DM0 RAM used:       02812    (of 24576)
-DM1 RAM used:       00798    (of 24576)
+DM0 RAM used:       02826    (of 24576)
+DM1 RAM used:       00813    (of 24576)
 PM  RAM used(Data): 00000    (of 16384)
-PM  RAM used(Inst): 03415    (of 16384) 2408 instructions (32bit: 1401  64bit: 1007)
-Total PM used:      03415    (of 16384)
+PM  RAM used(Inst): 03486    (of 16384) 2463 instructions (32bit: 1440  64bit: 1023)
+Total PM used:      03486    (of 16384)
 
 --------------------------------------------------------------------------------------
 STREAM fs=192000              Inst      Inst      DM0     DM1     PM
@@ -23,6 +23,7 @@ STACK                          -         -        20      0       0
 FRAMEWORK                     226       236       221     8       0
 Band16K                       53        79        158     22      0
 Band8K                        53        79        158     20      0
+LOUD                          39        55        11      10      0
 G1-LP9                        27        49        12      19      0
 G2-LP9                        27        49        12      19      0
 G3-LP9                        27        49        12      19      0
@@ -33,13 +34,15 @@ G2-LP1                        27        49        12      13      0
 G3-LP1                        27        49        12      13      0
 G5-LP4                        27        49        12      11      0
 Tone1                         32        32        13      2       0
-XFadeIN1                      15        16        1       1       0
-XFadeIN2                      15        16        1       1       0
+XFadeIN1                      15        16        1       2       0
+XFadeIN2                      15        16        1       2       0
 Add1                          10        10        0       1       0
 Add2                          10        10        0       1       0
+LOUD-COMP                     7         7         1       2       0
+VOL                           7         7         1       0       0
 COMP_IN                       7         7         0       1       0
-G4-DS1                        5         5         0       0       0
 G3-DS1                        5         5         0       0       0
+G4-DS1                        5         5         0       0       0
 G1-DS1                        5         5         0       0       0
 G2-DS1                        5         5         0       0       0
 Input1                        4         4         0       2       0
@@ -50,13 +53,14 @@ DC-LED                        2         2         1       1       0
 DCCOMP0                       2         2         1       1       0
 DCCOMP1                       2         2         1       1       0
 DCCOMP_IN                     2         2         1       1       0
+LOUD-SEL                      2         2         1       1       0
 LED                           2         2         0       0       0
-Output1                       2         2         0       0       0
 Output2                       2         2         0       0       0
+Output1                       2         2         0       0       0
 --------------------------------------------------------------------------------------
-Total                         710       972       686     211     0
+Total                         765       1043      700     226     0
 --------------------------------------------------------------------------------------
-(% Fs=192.0kHz)               47%       6%        3%      1%      0%
+(% Fs=192.0kHz)               50%       7%        3%      1%      0%
 
 
 --------------------------------------------------------------------------------------

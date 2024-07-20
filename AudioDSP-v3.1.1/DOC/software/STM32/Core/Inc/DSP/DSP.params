@@ -1,6 +1,6 @@
 Cell Name         = DCCOMP_IN
 Parameter Name    = DCInpAlg145X1value
-Parameter Address = 2128
+Parameter Address = 1967
 Parameter Value   = 1
 Parameter Data :
 0x00, 0x00, 0x00, 0x01, 
@@ -9,7 +9,7 @@ Parameter Data :
 
 Cell Name         = DCCOMP1
 Parameter Name    = DCInpAlg145X2value
-Parameter Address = 2129
+Parameter Address = 2140
 Parameter Value   = 1
 Parameter Data :
 0x01, 0x00, 0x00, 0x00, 
@@ -18,7 +18,7 @@ Parameter Data :
 
 Cell Name         = DCCOMP0
 Parameter Name    = DCInpAlg145X3value
-Parameter Address = 2130
+Parameter Address = 2141
 Parameter Value   = 1
 Parameter Data :
 0x01, 0x00, 0x00, 0x00, 
@@ -95,7 +95,7 @@ Parameter Data :
 
 Cell Name         = Band32
 Parameter Name    = ParamToneIndexwStepS300Alg1B2_1
-Parameter Address = 1525
+Parameter Address = 1536
 Parameter Data :
 0x00, 0xE4, 0x8E, 0x83, 
 0xFE, 0x3C, 0x96, 0xC9, 
@@ -252,7 +252,7 @@ Parameter Data :
 
 Cell Name         = Band32
 Parameter Name    = ParamToneIndexwStepS300Alg1slew_mode
-Parameter Address = 1520
+Parameter Address = 1531
 Parameter Value   = 6250
 Parameter Data :
 0x00, 0x00, 0x18, 0x6A, 
@@ -261,7 +261,7 @@ Parameter Data :
 
 Cell Name         = G1-LP2
 Parameter Name    = EQS300MultiDPHWSlewP1Alg2_slewmode
-Parameter Address = 472
+Parameter Address = 483
 Parameter Value   = 8330
 Parameter Data :
 0x00, 0x00, 0x20, 0x8A, 
@@ -270,7 +270,7 @@ Parameter Data :
 
 Cell Name         = G1-LP2
 Parameter Name    = EQS300MultiDPHWSlewP1Alg2Targ_B2_1
-Parameter Address = 24635
+Parameter Address = 24643
 Parameter Data :
 0x00, 0x0D, 0x32, 0x00, 
 0x00, 0x1A, 0x64, 0x00, 
@@ -282,7 +282,7 @@ Parameter Data :
 
 Cell Name         = G1-LP3
 Parameter Name    = EQS300MultiDPHWSlewP1Alg3_slewmode
-Parameter Address = 834
+Parameter Address = 845
 Parameter Value   = 8330
 Parameter Data :
 0x00, 0x00, 0x20, 0x8A, 
@@ -291,7 +291,7 @@ Parameter Data :
 
 Cell Name         = G1-LP3
 Parameter Name    = EQS300MultiDPHWSlewP1Alg3Targ_B2_1
-Parameter Address = 24679
+Parameter Address = 24687
 Parameter Data :
 0x00, 0x0D, 0x32, 0x00, 
 0x00, 0x1A, 0x64, 0x00, 
@@ -303,7 +303,7 @@ Parameter Data :
 
 Cell Name         = G1-LP4
 Parameter Name    = EQS300MultiDPHWSlewP1Alg4_slewmode
-Parameter Address = 1183
+Parameter Address = 1194
 Parameter Value   = 8330
 Parameter Data :
 0x00, 0x00, 0x20, 0x8A, 
@@ -312,7 +312,7 @@ Parameter Data :
 
 Cell Name         = G1-LP4
 Parameter Name    = EQS300MultiDPHWSlewP1Alg4Targ_B2_1
-Parameter Address = 24713
+Parameter Address = 24721
 Parameter Data :
 0x00, 0x0D, 0x32, 0x00, 
 0x00, 0x1A, 0x64, 0x00, 
@@ -324,7 +324,7 @@ Parameter Data :
 
 Cell Name         = G1-LP5
 Parameter Name    = EQS300MultiDPHWSlewP1Alg5_slewmode
-Parameter Address = 1519
+Parameter Address = 1530
 Parameter Value   = 8330
 Parameter Data :
 0x00, 0x00, 0x20, 0x8A, 
@@ -333,7 +333,7 @@ Parameter Data :
 
 Cell Name         = G1-LP5
 Parameter Name    = EQS300MultiDPHWSlewP1Alg5Targ_B2_1
-Parameter Address = 24737
+Parameter Address = 24745
 Parameter Data :
 0x00, 0x29, 0x36, 0x0E, 
 0x00, 0x52, 0x6C, 0x1D, 
@@ -345,7 +345,7 @@ Parameter Data :
 
 Cell Name         = Band64
 Parameter Name    = ParamToneIndexwStepS300Alg2B2_1
-Parameter Address = 1680
+Parameter Address = 1691
 Parameter Data :
 0x00, 0xCE, 0xF9, 0x6B, 
 0xFE, 0x8B, 0x37, 0x76, 
@@ -502,7 +502,7 @@ Parameter Data :
 
 Cell Name         = Band64
 Parameter Name    = ParamToneIndexwStepS300Alg2slew_mode
-Parameter Address = 1675
+Parameter Address = 1686
 Parameter Value   = 6250
 Parameter Data :
 0x00, 0x00, 0x18, 0x6A, 
@@ -511,7 +511,7 @@ Parameter Data :
 
 Cell Name         = Band32-SEL
 Parameter Name    = DCInpAlg145X4value
-Parameter Address = 2164
+Parameter Address = 2178
 Parameter Value   = 1
 Parameter Data :
 0x00, 0x00, 0x00, 0x01, 
@@ -520,7 +520,7 @@ Parameter Data :
 
 Cell Name         = Band64-SEL
 Parameter Name    = DCInpAlg145X5value
-Parameter Address = 2165
+Parameter Address = 2179
 Parameter Value   = 1
 Parameter Data :
 0x00, 0x00, 0x00, 0x01, 
@@ -529,7 +529,7 @@ Parameter Data :
 
 Cell Name         = G1-LP6
 Parameter Name    = EQS300MultiDPHWSlewP1Alg6_slewmode
-Parameter Address = 1512
+Parameter Address = 1523
 Parameter Value   = 8330
 Parameter Data :
 0x00, 0x00, 0x20, 0x8A, 
@@ -538,7 +538,7 @@ Parameter Data :
 
 Cell Name         = G1-LP6
 Parameter Name    = EQS300MultiDPHWSlewP1Alg6Targ_B2_1
-Parameter Address = 24732
+Parameter Address = 24740
 Parameter Data :
 0x00, 0x0D, 0x32, 0x00, 
 0x00, 0x1A, 0x64, 0x00, 
@@ -550,7 +550,7 @@ Parameter Data :
 
 Cell Name         = G1-LP7
 Parameter Name    = EQS300MultiDPHWSlewP1Alg7_slewmode
-Parameter Address = 1176
+Parameter Address = 1187
 Parameter Value   = 8330
 Parameter Data :
 0x00, 0x00, 0x20, 0x8A, 
@@ -559,7 +559,7 @@ Parameter Data :
 
 Cell Name         = G1-LP7
 Parameter Name    = EQS300MultiDPHWSlewP1Alg7Targ_B2_1
-Parameter Address = 24708
+Parameter Address = 24716
 Parameter Data :
 0x00, 0x0D, 0x32, 0x00, 
 0x00, 0x1A, 0x64, 0x00, 
@@ -571,7 +571,7 @@ Parameter Data :
 
 Cell Name         = G1-LP8
 Parameter Name    = EQS300MultiDPHWSlewP1Alg8_slewmode
-Parameter Address = 827
+Parameter Address = 838
 Parameter Value   = 8330
 Parameter Data :
 0x00, 0x00, 0x20, 0x8A, 
@@ -580,7 +580,7 @@ Parameter Data :
 
 Cell Name         = G1-LP8
 Parameter Name    = EQS300MultiDPHWSlewP1Alg8Targ_B2_1
-Parameter Address = 24674
+Parameter Address = 24682
 Parameter Data :
 0x00, 0x0D, 0x32, 0x00, 
 0x00, 0x1A, 0x64, 0x00, 
@@ -634,7 +634,7 @@ Parameter Data :
 
 Cell Name         = G2-LP2
 Parameter Name    = EQS300MultiDPHWSlewP1Alg11_slewmode
-Parameter Address = 478
+Parameter Address = 489
 Parameter Value   = 8330
 Parameter Data :
 0x00, 0x00, 0x20, 0x8A, 
@@ -643,7 +643,7 @@ Parameter Data :
 
 Cell Name         = G2-LP2
 Parameter Name    = EQS300MultiDPHWSlewP1Alg11Targ_B2_1
-Parameter Address = 24640
+Parameter Address = 24648
 Parameter Data :
 0x00, 0x0D, 0x32, 0x00, 
 0x00, 0x1A, 0x64, 0x00, 
@@ -655,7 +655,7 @@ Parameter Data :
 
 Cell Name         = G2-LP3
 Parameter Name    = EQS300MultiDPHWSlewP1Alg12_slewmode
-Parameter Address = 840
+Parameter Address = 851
 Parameter Value   = 8330
 Parameter Data :
 0x00, 0x00, 0x20, 0x8A, 
@@ -664,7 +664,7 @@ Parameter Data :
 
 Cell Name         = G2-LP3
 Parameter Name    = EQS300MultiDPHWSlewP1Alg12Targ_B2_1
-Parameter Address = 24684
+Parameter Address = 24692
 Parameter Data :
 0x00, 0x0D, 0x32, 0x00, 
 0x00, 0x1A, 0x64, 0x00, 
@@ -676,7 +676,7 @@ Parameter Data :
 
 Cell Name         = G2-LP4
 Parameter Name    = EQS300MultiDPHWSlewP1Alg13_slewmode
-Parameter Address = 1189
+Parameter Address = 1200
 Parameter Value   = 8330
 Parameter Data :
 0x00, 0x00, 0x20, 0x8A, 
@@ -685,7 +685,7 @@ Parameter Data :
 
 Cell Name         = G2-LP4
 Parameter Name    = EQS300MultiDPHWSlewP1Alg13Targ_B2_1
-Parameter Address = 24718
+Parameter Address = 24726
 Parameter Data :
 0x00, 0xE8, 0xD9, 0x21, 
 0xFE, 0x2E, 0x4D, 0xBE, 
@@ -697,7 +697,7 @@ Parameter Data :
 
 Cell Name         = G2-LP41
 Parameter Name    = EQS300MultiDPHWSlewP1Alg14_slewmode
-Parameter Address = 1195
+Parameter Address = 1206
 Parameter Value   = 8330
 Parameter Data :
 0x00, 0x00, 0x20, 0x8A, 
@@ -706,7 +706,7 @@ Parameter Data :
 
 Cell Name         = G2-LP41
 Parameter Name    = EQS300MultiDPHWSlewP1Alg14Targ_B2_1
-Parameter Address = 24723
+Parameter Address = 24731
 Parameter Data :
 0x00, 0x29, 0x36, 0x0E, 
 0x00, 0x52, 0x6C, 0x1D, 
@@ -718,7 +718,7 @@ Parameter Data :
 
 Cell Name         = Band128
 Parameter Name    = ParamToneIndexwStepS300Alg3B2_1
-Parameter Address = 1201
+Parameter Address = 1212
 Parameter Data :
 0x00, 0xE4, 0x8E, 0x83, 
 0xFE, 0x3C, 0x96, 0xC9, 
@@ -875,7 +875,7 @@ Parameter Data :
 
 Cell Name         = Band128
 Parameter Name    = ParamToneIndexwStepS300Alg3slew_mode
-Parameter Address = 1196
+Parameter Address = 1207
 Parameter Value   = 6250
 Parameter Data :
 0x00, 0x00, 0x18, 0x6A, 
@@ -884,7 +884,7 @@ Parameter Data :
 
 Cell Name         = Band256
 Parameter Name    = ParamToneIndexwStepS300Alg4B2_1
-Parameter Address = 1356
+Parameter Address = 1367
 Parameter Data :
 0x00, 0xCE, 0xF9, 0x6B, 
 0xFE, 0x8B, 0x37, 0x76, 
@@ -1041,7 +1041,7 @@ Parameter Data :
 
 Cell Name         = Band256
 Parameter Name    = ParamToneIndexwStepS300Alg4slew_mode
-Parameter Address = 1351
+Parameter Address = 1362
 Parameter Value   = 6250
 Parameter Data :
 0x00, 0x00, 0x18, 0x6A, 
@@ -1050,7 +1050,7 @@ Parameter Data :
 
 Cell Name         = Band128-SEL
 Parameter Name    = DCInpAlg145X6value
-Parameter Address = 2156
+Parameter Address = 2170
 Parameter Value   = 1
 Parameter Data :
 0x00, 0x00, 0x00, 0x01, 
@@ -1059,7 +1059,7 @@ Parameter Data :
 
 Cell Name         = Band256-SEL
 Parameter Name    = DCInpAlg145X7value
-Parameter Address = 2157
+Parameter Address = 2171
 Parameter Value   = 1
 Parameter Data :
 0x00, 0x00, 0x00, 0x01, 
@@ -1068,7 +1068,7 @@ Parameter Data :
 
 Cell Name         = G2-LP7
 Parameter Name    = EQS300MultiDPHWSlewP1Alg15_slewmode
-Parameter Address = 1169
+Parameter Address = 1180
 Parameter Value   = 8330
 Parameter Data :
 0x00, 0x00, 0x20, 0x8A, 
@@ -1077,7 +1077,7 @@ Parameter Data :
 
 Cell Name         = G2-LP7
 Parameter Name    = EQS300MultiDPHWSlewP1Alg15Targ_B2_1
-Parameter Address = 24703
+Parameter Address = 24711
 Parameter Data :
 0x00, 0x0D, 0x32, 0x00, 
 0x00, 0x1A, 0x64, 0x00, 
@@ -1089,7 +1089,7 @@ Parameter Data :
 
 Cell Name         = G2-LP8
 Parameter Name    = EQS300MultiDPHWSlewP1Alg16_slewmode
-Parameter Address = 820
+Parameter Address = 831
 Parameter Value   = 8330
 Parameter Data :
 0x00, 0x00, 0x20, 0x8A, 
@@ -1098,7 +1098,7 @@ Parameter Data :
 
 Cell Name         = G2-LP8
 Parameter Name    = EQS300MultiDPHWSlewP1Alg16Targ_B2_1
-Parameter Address = 24669
+Parameter Address = 24677
 Parameter Data :
 0x00, 0x0D, 0x32, 0x00, 
 0x00, 0x1A, 0x64, 0x00, 
@@ -1152,7 +1152,7 @@ Parameter Data :
 
 Cell Name         = G3-LP2
 Parameter Name    = EQS300MultiDPHWSlewP1Alg19_slewmode
-Parameter Address = 484
+Parameter Address = 495
 Parameter Value   = 8330
 Parameter Data :
 0x00, 0x00, 0x20, 0x8A, 
@@ -1161,7 +1161,7 @@ Parameter Data :
 
 Cell Name         = G3-LP2
 Parameter Name    = EQS300MultiDPHWSlewP1Alg19Targ_B2_1
-Parameter Address = 24645
+Parameter Address = 24653
 Parameter Data :
 0x00, 0x0D, 0x32, 0x00, 
 0x00, 0x1A, 0x64, 0x00, 
@@ -1173,7 +1173,7 @@ Parameter Data :
 
 Cell Name         = G3-LP4
 Parameter Name    = EQS300MultiDPHWSlewP1Alg20_slewmode
-Parameter Address = 846
+Parameter Address = 857
 Parameter Value   = 8330
 Parameter Data :
 0x00, 0x00, 0x20, 0x8A, 
@@ -1182,7 +1182,7 @@ Parameter Data :
 
 Cell Name         = G3-LP4
 Parameter Name    = EQS300MultiDPHWSlewP1Alg20Targ_B2_1
-Parameter Address = 24689
+Parameter Address = 24697
 Parameter Data :
 0x00, 0xE8, 0xD9, 0x21, 
 0xFE, 0x2E, 0x4D, 0xBE, 
@@ -1194,7 +1194,7 @@ Parameter Data :
 
 Cell Name         = G3-LP41
 Parameter Name    = EQS300MultiDPHWSlewP1Alg21_slewmode
-Parameter Address = 852
+Parameter Address = 863
 Parameter Value   = 8330
 Parameter Data :
 0x00, 0x00, 0x20, 0x8A, 
@@ -1203,7 +1203,7 @@ Parameter Data :
 
 Cell Name         = G3-LP41
 Parameter Name    = EQS300MultiDPHWSlewP1Alg21Targ_B2_1
-Parameter Address = 24694
+Parameter Address = 24702
 Parameter Data :
 0x00, 0x29, 0x36, 0x0E, 
 0x00, 0x52, 0x6C, 0x1D, 
@@ -1215,7 +1215,7 @@ Parameter Data :
 
 Cell Name         = Band512
 Parameter Name    = ParamToneIndexwStepS300Alg5B2_1
-Parameter Address = 858
+Parameter Address = 869
 Parameter Data :
 0x00, 0xE4, 0x8E, 0x83, 
 0xFE, 0x3C, 0x96, 0xC9, 
@@ -1372,7 +1372,7 @@ Parameter Data :
 
 Cell Name         = Band512
 Parameter Name    = ParamToneIndexwStepS300Alg5slew_mode
-Parameter Address = 853
+Parameter Address = 864
 Parameter Value   = 6250
 Parameter Data :
 0x00, 0x00, 0x18, 0x6A, 
@@ -1381,7 +1381,7 @@ Parameter Data :
 
 Cell Name         = Band1K
 Parameter Name    = ParamToneIndexwStepS300Alg6B2_1
-Parameter Address = 1013
+Parameter Address = 1024
 Parameter Data :
 0x00, 0xCE, 0xF9, 0x6B, 
 0xFE, 0x8B, 0x37, 0x76, 
@@ -1538,7 +1538,7 @@ Parameter Data :
 
 Cell Name         = Band1K
 Parameter Name    = ParamToneIndexwStepS300Alg6slew_mode
-Parameter Address = 1008
+Parameter Address = 1019
 Parameter Value   = 6250
 Parameter Data :
 0x00, 0x00, 0x18, 0x6A, 
@@ -1547,7 +1547,7 @@ Parameter Data :
 
 Cell Name         = Band512-SEL
 Parameter Name    = DCInpAlg145X8value
-Parameter Address = 2148
+Parameter Address = 2162
 Parameter Value   = 1
 Parameter Data :
 0x00, 0x00, 0x00, 0x01, 
@@ -1556,7 +1556,7 @@ Parameter Data :
 
 Cell Name         = Band1K-SEL
 Parameter Name    = DCInpAlg145X9value
-Parameter Address = 2149
+Parameter Address = 2163
 Parameter Value   = 1
 Parameter Data :
 0x00, 0x00, 0x00, 0x01, 
@@ -1565,7 +1565,7 @@ Parameter Data :
 
 Cell Name         = G3-LP8
 Parameter Name    = EQS300MultiDPHWSlewP1Alg22_slewmode
-Parameter Address = 813
+Parameter Address = 824
 Parameter Value   = 8330
 Parameter Data :
 0x00, 0x00, 0x20, 0x8A, 
@@ -1574,7 +1574,7 @@ Parameter Data :
 
 Cell Name         = G3-LP8
 Parameter Name    = EQS300MultiDPHWSlewP1Alg22Targ_B2_1
-Parameter Address = 24664
+Parameter Address = 24672
 Parameter Data :
 0x00, 0x0D, 0x32, 0x00, 
 0x00, 0x1A, 0x64, 0x00, 
@@ -1628,7 +1628,7 @@ Parameter Data :
 
 Cell Name         = G4-LP4
 Parameter Name    = EQS300MultiDPHWSlewP1Alg25_slewmode
-Parameter Address = 490
+Parameter Address = 501
 Parameter Value   = 8330
 Parameter Data :
 0x00, 0x00, 0x20, 0x8A, 
@@ -1637,7 +1637,7 @@ Parameter Data :
 
 Cell Name         = G4-LP4
 Parameter Name    = EQS300MultiDPHWSlewP1Alg25Targ_B2_1
-Parameter Address = 24650
+Parameter Address = 24658
 Parameter Data :
 0x00, 0xE8, 0xD9, 0x21, 
 0xFE, 0x2E, 0x4D, 0xBE, 
@@ -1649,7 +1649,7 @@ Parameter Data :
 
 Cell Name         = G4-LP41
 Parameter Name    = EQS300MultiDPHWSlewP1Alg26_slewmode
-Parameter Address = 496
+Parameter Address = 507
 Parameter Value   = 8330
 Parameter Data :
 0x00, 0x00, 0x20, 0x8A, 
@@ -1658,7 +1658,7 @@ Parameter Data :
 
 Cell Name         = G4-LP41
 Parameter Name    = EQS300MultiDPHWSlewP1Alg26Targ_B2_1
-Parameter Address = 24655
+Parameter Address = 24663
 Parameter Data :
 0x00, 0x29, 0x36, 0x0E, 
 0x00, 0x52, 0x6C, 0x1D, 
@@ -1670,7 +1670,7 @@ Parameter Data :
 
 Cell Name         = Band2K
 Parameter Name    = ParamToneIndexwStepS300Alg7B2_1
-Parameter Address = 502
+Parameter Address = 513
 Parameter Data :
 0x00, 0xE4, 0x8E, 0x83, 
 0xFE, 0x3C, 0x96, 0xC9, 
@@ -1827,7 +1827,7 @@ Parameter Data :
 
 Cell Name         = Band2K
 Parameter Name    = ParamToneIndexwStepS300Alg7slew_mode
-Parameter Address = 497
+Parameter Address = 508
 Parameter Value   = 6250
 Parameter Data :
 0x00, 0x00, 0x18, 0x6A, 
@@ -1836,7 +1836,7 @@ Parameter Data :
 
 Cell Name         = Band4K
 Parameter Name    = ParamToneIndexwStepS300Alg8B2_1
-Parameter Address = 657
+Parameter Address = 668
 Parameter Data :
 0x00, 0xCE, 0xF9, 0x6B, 
 0xFE, 0x8B, 0x37, 0x76, 
@@ -1993,7 +1993,7 @@ Parameter Data :
 
 Cell Name         = Band4K
 Parameter Name    = ParamToneIndexwStepS300Alg8slew_mode
-Parameter Address = 652
+Parameter Address = 663
 Parameter Value   = 6250
 Parameter Data :
 0x00, 0x00, 0x18, 0x6A, 
@@ -2002,7 +2002,7 @@ Parameter Data :
 
 Cell Name         = Band2K-SEL
 Parameter Name    = DCInpAlg145X10value
-Parameter Address = 2140
+Parameter Address = 2154
 Parameter Value   = 1
 Parameter Data :
 0x00, 0x00, 0x00, 0x01, 
@@ -2011,7 +2011,7 @@ Parameter Data :
 
 Cell Name         = Band4K-SEL
 Parameter Name    = DCInpAlg145X11value
-Parameter Address = 2141
+Parameter Address = 2155
 Parameter Value   = 1
 Parameter Data :
 0x00, 0x00, 0x00, 0x01, 
@@ -2394,7 +2394,7 @@ Parameter Data :
 
 Cell Name         = Band8K-SEL
 Parameter Name    = DCInpAlg145X12value
-Parameter Address = 2131
+Parameter Address = 2142
 Parameter Value   = 1
 Parameter Data :
 0x00, 0x00, 0x00, 0x01, 
@@ -2403,7 +2403,7 @@ Parameter Data :
 
 Cell Name         = Band16K-SEL
 Parameter Name    = DCInpAlg145X13value
-Parameter Address = 2132
+Parameter Address = 2143
 Parameter Value   = 1
 Parameter Data :
 0x00, 0x00, 0x00, 0x01, 
@@ -2412,10 +2412,118 @@ Parameter Data :
 
 Cell Name         = DC-LED
 Parameter Name    = DCInpAlg145X14value
-Parameter Address = 2133
+Parameter Address = 2144
 Parameter Value   = 1
 Parameter Data :
 0x00, 0x00, 0x00, 0x01, 
+
+
+
+Cell Name         = VOL
+Parameter Name    = GainAlgNS145X1gain
+Parameter Address = 2146
+Parameter Value   = 1
+Parameter Data :
+0x01, 0x00, 0x00, 0x00, 
+
+
+
+Cell Name         = LOUD
+Parameter Name    = LoudnessLHExt42Alg1level_low
+Parameter Address = 465
+Parameter Data :
+0x01, 0x38, 0x51, 0xEC, 
+0x00, 0x94, 0x7A, 0xE1, 
+
+
+
+Cell Name         = LOUD
+Parameter Name    = LoudnessLHExt42Alg1iir_coeff_b0_hi
+Parameter Address = 461
+Parameter Value   = 0.896828234195709
+Parameter Data :
+0x00, 0xE5, 0x96, 0x89, 
+
+
+
+Cell Name         = LOUD
+Parameter Name    = LoudnessLHExt42Alg1iir_coeff_b1_hi
+Parameter Address = 460
+Parameter Value   = -0.896828234195709
+Parameter Data :
+0xFF, 0x1A, 0x69, 0x77, 
+
+
+
+Cell Name         = LOUD
+Parameter Name    = LoudnessLHExt42Alg1iir_coeff_a1_hi
+Parameter Address = 459
+Parameter Value   = 0.793656468391418
+Parameter Data :
+0x00, 0xCB, 0x2D, 0x12, 
+
+
+
+Cell Name         = LOUD
+Parameter Name    = LoudnessLHExt42Alg1iir_coeff_b0_low
+Parameter Address = 464
+Parameter Value   = 0.000980794429779053
+Parameter Data :
+0x00, 0x00, 0x40, 0x47, 
+
+
+
+Cell Name         = LOUD
+Parameter Name    = LoudnessLHExt42Alg1iir_coeff_b1_low
+Parameter Address = 463
+Parameter Value   = 0.000980794429779053
+Parameter Data :
+0x00, 0x00, 0x40, 0x47, 
+
+
+
+Cell Name         = LOUD
+Parameter Name    = LoudnessLHExt42Alg1iir_coeff_a1_low
+Parameter Address = 462
+Parameter Value   = 0.998038411140442
+Parameter Data :
+0x00, 0xFF, 0x7F, 0x72, 
+
+
+
+Cell Name         = LOUD
+Parameter Name    = LoudnessLHExt42Alg1step
+Parameter Address = 467
+Parameter Value   = 0.000244140625
+Parameter Data :
+0x00, 0x00, 0x10, 0x00, 
+
+
+
+Cell Name         = LOUD
+Parameter Name    = LoudnessLHExt42Alg1step
+Parameter Address = 467
+Parameter Value   = 0.000244140625
+Parameter Data :
+0x00, 0x00, 0x10, 0x00, 
+
+
+
+Cell Name         = LOUD-SEL
+Parameter Name    = DCInpAlg145X15value
+Parameter Address = 2145
+Parameter Value   = 1
+Parameter Data :
+0x01, 0x00, 0x00, 0x00, 
+
+
+
+Cell Name         = LOUD-COMP
+Parameter Name    = GainAlgNS145X2gain
+Parameter Address = 2153
+Parameter Value   = 1
+Parameter Data :
+0x01, 0x00, 0x00, 0x00, 
 
 
 

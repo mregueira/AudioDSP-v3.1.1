@@ -46,55 +46,64 @@
             <Algorithm name="DCInpAlg145X14" friendlyname="DC-Input " cell="DC-LED " location="{X=472, Y=307} " Growth="0 " GrowthB="0 " FS="192000">
                 <Link pin="O_C77_A0_P1_out" dir="out" link="Link136" />
             </Algorithm>
+            <Algorithm name="DCInpAlg145X15" friendlyname="DC-Input " cell="LOUD-SEL " location="{X=3648, Y=-72} " Growth="0 " GrowthB="0 " FS="192000">
+                <Link pin="O_C90_A0_P1_out" dir="out" link="Link141" />
+            </Algorithm>
             <Algorithm name="SigmaADAU145xCondAlg21" friendlyname="Condition " cell="COMP_IN " location="{X=413, Y=-87} " Growth="0 " GrowthB="0">
                 <Link pin="I_C21_A0_P1_in" dir="in" link="Link0" />
                 <Link pin="I_C21_A0_P2_in" dir="in" link="Link1" />
                 <Link pin="I_C21_A0_P3_in" dir="in" link="Link2" />
                 <Link pin="I_C21_A0_P4_in" dir="in" link="Link3" />
-                <Link pin="O_C21_A0_P5_out" dir="out" link="Link137" />
+                <Link pin="O_C21_A0_P5_out" dir="out" link="Link144" />
             </Algorithm>
             <Algorithm name="GPOAlg3001" friendlyname="General Purpose Output " cell="LED " location="{X=647, Y=334} " Growth="0 " GrowthB="0">
                 <Link pin="I_C81_A0_P1_in" dir="in" link="Link136" />
             </Algorithm>
-            <Algorithm name="CrossFadeS300Alg1" friendlyname="Externally Controlled XFade " cell="XFadeIN1 " location="{X=713, Y=80} " Growth="1 " GrowthB="0">
-                <Link pin="I_C43_A0_P1_in" dir="in" link="Link137" />
+            <Algorithm name="CrossFadeS300Alg1" friendlyname="Externally Controlled XFade " cell="XFadeIN1 " location="{X=662, Y=80} " Growth="1 " GrowthB="0">
+                <Link pin="I_C43_A0_P1_in" dir="in" link="Link144" />
                 <Link pin="I_C43_A0_P2_in" dir="in" link="Link4" />
                 <Link pin="I_C43_A0_P3_in" dir="in" link="Link6" />
-                <Link pin="O_C43_A0_P4_out" dir="out" link="Link139" />
+                <Link pin="O_C43_A0_P4_out" dir="out" link="Link137" />
             </Algorithm>
-            <Algorithm name="CrossFadeS300Alg2" friendlyname="Externally Controlled XFade " cell="XFadeIN2 " location="{X=711, Y=150} " Growth="1 " GrowthB="0">
-                <Link pin="I_C48_A0_P1_in" dir="in" link="Link137" />
+            <Algorithm name="CrossFadeS300Alg2" friendlyname="Externally Controlled XFade " cell="XFadeIN2 " location="{X=660, Y=150} " Growth="1 " GrowthB="0">
+                <Link pin="I_C48_A0_P1_in" dir="in" link="Link144" />
                 <Link pin="I_C48_A0_P2_in" dir="in" link="Link5" />
                 <Link pin="I_C48_A0_P3_in" dir="in" link="Link7" />
                 <Link pin="O_C48_A0_P4_out" dir="out" link="Link138" />
             </Algorithm>
+            <Algorithm name="GainAlgNS145X1" friendlyname="Gain (no-slew) " cell="VOL " location="{X=779, Y=57} " Growth="2 " GrowthB="0">
+                <Link pin="I_C153_A0_P1_in" dir="in" link="Link137" />
+                <Link pin="I_C153_A0_P3_in" dir="in" link="Link138" />
+                <Link pin="O_C153_A0_P2_out" dir="out" link="Link146" />
+                <Link pin="O_C153_A0_P4_out" dir="out" link="Link145" />
+            </Algorithm>
             <Algorithm name="EQS300MultiDPHWSlewP1Alg1" friendlyname="Multi-Channel HW Slew - Double Precision " cell="G1-LP1 " location="{X=1111, Y=76} " Growth="1 " GrowthB="2">
-                <Link pin="I_C29_A0_P1_in" dir="in" link="Link139" />
-                <Link pin="I_C29_A0_P3_in" dir="in" link="Link138" />
+                <Link pin="I_C29_A0_P1_in" dir="in" link="Link146" />
+                <Link pin="I_C29_A0_P3_in" dir="in" link="Link145" />
                 <Link pin="O_C29_A0_P2_out" dir="out" link="Link8" />
                 <Link pin="O_C29_A0_P4_out" dir="out" link="Link9" />
             </Algorithm>
             <Algorithm name="EQS300MultiDPHWSlewP1Alg10" friendlyname="Multi-Channel HW Slew - Double Precision " cell="G2-LP1 " location="{X=1111, Y=278} " Growth="1 " GrowthB="2">
-                <Link pin="I_C282_A0_P1_in" dir="in" link="Link139" />
-                <Link pin="I_C282_A0_P3_in" dir="in" link="Link138" />
+                <Link pin="I_C282_A0_P1_in" dir="in" link="Link146" />
+                <Link pin="I_C282_A0_P3_in" dir="in" link="Link145" />
                 <Link pin="O_C282_A0_P2_out" dir="out" link="Link48" />
                 <Link pin="O_C282_A0_P4_out" dir="out" link="Link46" />
             </Algorithm>
             <Algorithm name="EQS300MultiDPHWSlewP1Alg18" friendlyname="Multi-Channel HW Slew - Double Precision " cell="G3-LP1 " location="{X=1112, Y=483} " Growth="1 " GrowthB="2">
-                <Link pin="I_C448_A0_P1_in" dir="in" link="Link139" />
-                <Link pin="I_C448_A0_P3_in" dir="in" link="Link138" />
+                <Link pin="I_C448_A0_P1_in" dir="in" link="Link146" />
+                <Link pin="I_C448_A0_P3_in" dir="in" link="Link145" />
                 <Link pin="O_C448_A0_P2_out" dir="out" link="Link87" />
                 <Link pin="O_C448_A0_P4_out" dir="out" link="Link89" />
             </Algorithm>
             <Algorithm name="EQS300MultiDPHWSlewP1Alg24" friendlyname="Multi-Channel HW Slew - Double Precision " cell="G4-LP1 " location="{X=1114, Y=686} " Growth="1 " GrowthB="2">
-                <Link pin="I_C571_A0_P1_in" dir="in" link="Link139" />
-                <Link pin="I_C571_A0_P3_in" dir="in" link="Link138" />
+                <Link pin="I_C571_A0_P1_in" dir="in" link="Link146" />
+                <Link pin="I_C571_A0_P3_in" dir="in" link="Link145" />
                 <Link pin="O_C571_A0_P2_out" dir="out" link="Link111" />
                 <Link pin="O_C571_A0_P4_out" dir="out" link="Link110" />
             </Algorithm>
             <Algorithm name="EQS300MultiDPHWSlewP1Alg28" friendlyname="Multi-Channel HW Slew - Double Precision " cell="G5-LP4 " location="{X=1750, Y=889} " Growth="1 " GrowthB="2">
-                <Link pin="I_C657_A0_P1_in" dir="in" link="Link139" />
-                <Link pin="I_C657_A0_P3_in" dir="in" link="Link138" />
+                <Link pin="I_C657_A0_P1_in" dir="in" link="Link146" />
+                <Link pin="I_C657_A0_P3_in" dir="in" link="Link145" />
                 <Link pin="O_C657_A0_P2_out" dir="out" link="Link133" />
                 <Link pin="O_C657_A0_P4_out" dir="out" link="Link132" />
             </Algorithm>
@@ -176,11 +185,24 @@
                 <Link pin="I_C272_A0_P6_in" dir="in" link="Link135" />
                 <Link pin="O_C272_A0_P1_out" dir="out" link="Link83" />
             </Algorithm>
-            <Algorithm name="ICOutADAU145X1" friendlyname="Output " cell="Output1 " location="{X=3722, Y=56} " Growth="1 " GrowthB="0">
-                <Link pin="I_C17_A0_P1_in" dir="in" link="Link82" />
+            <Algorithm name="LoudnessLHExt42Alg1" friendlyname="L&amp;H Loudness w/Ext Vol Ctrl " cell="LOUD " location="{X=3784, Y=17} " Growth="2 " GrowthB="0">
+                <Link pin="I_C182_A0_P1_in" dir="in" link="Link141" />
+                <Link pin="I_C182_A0_P2_in" dir="in" link="Link82" />
+                <Link pin="I_C182_A0_P4_in" dir="in" link="Link83" />
+                <Link pin="O_C182_A0_P3_out" dir="out" link="Link140" />
+                <Link pin="O_C182_A0_P5_out" dir="out" link="Link139" />
             </Algorithm>
-            <Algorithm name="ICOutADAU145X2" friendlyname="Output " cell="Output2 " location="{X=3722, Y=174} " Growth="1 " GrowthB="0">
-                <Link pin="I_C19_A0_P1_in" dir="in" link="Link83" />
+            <Algorithm name="GainAlgNS145X2" friendlyname="Gain (no-slew) " cell="LOUD-COMP " location="{X=3998, Y=37} " Growth="2 " GrowthB="0">
+                <Link pin="I_C118_A0_P1_in" dir="in" link="Link140" />
+                <Link pin="I_C118_A0_P3_in" dir="in" link="Link139" />
+                <Link pin="O_C118_A0_P2_out" dir="out" link="Link143" />
+                <Link pin="O_C118_A0_P4_out" dir="out" link="Link142" />
+            </Algorithm>
+            <Algorithm name="ICOutADAU145X2" friendlyname="Output " cell="Output2 " location="{X=4127, Y=81} " Growth="1 " GrowthB="0">
+                <Link pin="I_C19_A0_P1_in" dir="in" link="Link142" />
+            </Algorithm>
+            <Algorithm name="ICOutADAU145X1" friendlyname="Output " cell="Output1 " location="{X=4128, Y=30} " Growth="1 " GrowthB="0">
+                <Link pin="I_C17_A0_P1_in" dir="in" link="Link143" />
             </Algorithm>
             <Algorithm name="DCInpAlg145X10" friendlyname="DC-Input " cell="Band2K-SEL " location="{X=2009, Y=576} " Growth="0 " GrowthB="0 " FS="48000">
                 <Link pin="O_C619_A0_P1_out" dir="out" link="Link116" />
