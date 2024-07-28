@@ -1,77 +1,3 @@
-Cell Name         = DCCOMP_IN
-Parameter Name    = DCInpAlg145X1value
-Parameter Address = 1967
-Parameter Value   = 1
-Parameter Data :
-0x00, 0x00, 0x00, 0x01, 
-
-
-
-Cell Name         = DCCOMP1
-Parameter Name    = DCInpAlg145X2value
-Parameter Address = 2140
-Parameter Value   = 1
-Parameter Data :
-0x01, 0x00, 0x00, 0x00, 
-
-
-
-Cell Name         = DCCOMP0
-Parameter Name    = DCInpAlg145X3value
-Parameter Address = 2141
-Parameter Value   = 1
-Parameter Data :
-0x01, 0x00, 0x00, 0x00, 
-
-
-
-Cell Name         = XFadeIN1
-Parameter Name    = CrossFadeS300Alg1step
-Parameter Address = 93
-Parameter Value   = 0.000244140625
-Parameter Data :
-0x00, 0x00, 0x10, 0x00, 
-
-
-
-Cell Name         = XFadeIN2
-Parameter Name    = CrossFadeS300Alg2step
-Parameter Address = 94
-Parameter Value   = 0.000244140625
-Parameter Data :
-0x00, 0x00, 0x10, 0x00, 
-
-
-
-Cell Name         = Tone1
-Parameter Name    = SinePhaseGainAlgS3001inc
-Parameter Address = 88
-Parameter Value   = 0.00520843267440796
-Parameter Data :
-0x00, 0x01, 0x55, 0x57, 
-
-
-
-Cell Name         = Tone1
-Parameter Name    = SinePhaseGainAlgS3001index_fp_hi_0
-Parameter Address = 82
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-0x00, 0x00, 0x00, 0x00, 
-0x00, 0x00, 0x00, 0x00, 
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Cell Name         = Tone1
-Parameter Name    = SinePhaseGainAlgS3001gain_0
-Parameter Address = 80
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-0x00, 0x00, 0x00, 0x00, 
-
-
-
 Cell Name         = G1-LP1
 Parameter Name    = EQS300MultiDPHWSlewP1Alg1_slewmode
 Parameter Address = 100
@@ -2394,7 +2320,7 @@ Parameter Data :
 
 Cell Name         = Band8K-SEL
 Parameter Name    = DCInpAlg145X12value
-Parameter Address = 2142
+Parameter Address = 1967
 Parameter Value   = 1
 Parameter Data :
 0x00, 0x00, 0x00, 0x01, 
@@ -2403,7 +2329,7 @@ Parameter Data :
 
 Cell Name         = Band16K-SEL
 Parameter Name    = DCInpAlg145X13value
-Parameter Address = 2143
+Parameter Address = 2140
 Parameter Value   = 1
 Parameter Data :
 0x00, 0x00, 0x00, 0x01, 
@@ -2412,7 +2338,7 @@ Parameter Data :
 
 Cell Name         = DC-LED
 Parameter Name    = DCInpAlg145X14value
-Parameter Address = 2144
+Parameter Address = 2141
 Parameter Value   = 1
 Parameter Data :
 0x00, 0x00, 0x00, 0x01, 
@@ -2511,7 +2437,7 @@ Parameter Data :
 
 Cell Name         = LOUD-SEL
 Parameter Name    = DCInpAlg145X15value
-Parameter Address = 2145
+Parameter Address = 2142
 Parameter Value   = 1
 Parameter Data :
 0x01, 0x00, 0x00, 0x00, 
@@ -2524,6 +2450,80 @@ Parameter Address = 2153
 Parameter Value   = 1
 Parameter Data :
 0x01, 0x00, 0x00, 0x00, 
+
+
+
+Cell Name         = DCCOMP_IN
+Parameter Name    = DCInpAlg145X1value
+Parameter Address = 2143
+Parameter Value   = 1
+Parameter Data :
+0x00, 0x00, 0x00, 0x01, 
+
+
+
+Cell Name         = DCCOMP0
+Parameter Name    = DCInpAlg145X2value
+Parameter Address = 2144
+Parameter Value   = 1
+Parameter Data :
+0x01, 0x00, 0x00, 0x00, 
+
+
+
+Cell Name         = DCCOMP1
+Parameter Name    = DCInpAlg145X3value
+Parameter Address = 2145
+Parameter Value   = 0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Cell Name         = Tone1
+Parameter Name    = SinePhaseGainAlgS3001inc
+Parameter Address = 88
+Parameter Value   = 0.00520843267440796
+Parameter Data :
+0x00, 0x01, 0x55, 0x57, 
+
+
+
+Cell Name         = Tone1
+Parameter Name    = SinePhaseGainAlgS3001index_fp_hi_0
+Parameter Address = 82
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+0x00, 0x00, 0x00, 0x00, 
+0x00, 0x00, 0x00, 0x00, 
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Cell Name         = Tone1
+Parameter Name    = SinePhaseGainAlgS3001gain_0
+Parameter Address = 80
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Cell Name         = XFade1
+Parameter Name    = CrossFadeS300Alg1step
+Parameter Address = 93
+Parameter Value   = 3.0517578125E-05
+Parameter Data :
+0x00, 0x00, 0x02, 0x00, 
+
+
+
+Cell Name         = XFade2
+Parameter Name    = CrossFadeS300Alg2step
+Parameter Address = 94
+Parameter Value   = 3.0517578125E-05
+Parameter Data :
+0x00, 0x00, 0x02, 0x00, 
 
 
 

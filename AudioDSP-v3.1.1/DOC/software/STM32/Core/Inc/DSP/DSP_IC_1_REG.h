@@ -1,7 +1,7 @@
 /*
  * File:           C:\Users\marce\OneDrive\Desktop\GitHub Repos\AudioDSP-v3.1.1\AudioDSP-v3.1.1\DOC\software\STM32\Core\Inc\DSP\DSP_IC_1_REG.h
  *
- * Created:        Saturday, July 20, 2024 12:43:43 PM
+ * Created:        Sunday, July 28, 2024 11:13:45 AM
  * Description:    DSP:IC 1 control register definitions.
  *
  * This software is distributed in the hope that it will be useful,
@@ -58,12 +58,12 @@
 /* CLK_GEN1_M  - Registers (IC 1) */
 #define REG_CLK_GEN1_M_IC_1_ADDR                  0xF020
 #define REG_CLK_GEN1_M_IC_1_BYTE                  2
-#define REG_CLK_GEN1_M_IC_1_VALUE                 0x2
+#define REG_CLK_GEN1_M_IC_1_VALUE                 0x3
 
 /* CLK_GEN1_N  - Registers (IC 1) */
 #define REG_CLK_GEN1_N_IC_1_ADDR                  0xF021
 #define REG_CLK_GEN1_N_IC_1_BYTE                  2
-#define REG_CLK_GEN1_N_IC_1_VALUE                 0x3
+#define REG_CLK_GEN1_N_IC_1_VALUE                 0x2
 
 /* CLK_GEN2_M  - Registers (IC 1) */
 #define REG_CLK_GEN2_M_IC_1_ADDR                  0xF022
@@ -98,7 +98,7 @@
 /* POWER_ENABLE0  - Registers (IC 1) */
 #define REG_POWER_ENABLE0_IC_1_ADDR               0xF050
 #define REG_POWER_ENABLE0_IC_1_BYTE               2
-#define REG_POWER_ENABLE0_IC_1_VALUE              0x1F11
+#define REG_POWER_ENABLE0_IC_1_VALUE              0x1C11
 
 /* POWER_ENABLE1  - Registers (IC 1) */
 #define REG_POWER_ENABLE1_IC_1_ADDR               0xF051
@@ -1593,7 +1593,7 @@
 /* MP7_MODE1  - Registers (IC 1) */
 #define REG_MP7_MODE1_IC_1_ADDR                   0xF5C7
 #define REG_MP7_MODE1_IC_1_BYTE                   2
-#define REG_MP7_MODE1_IC_1_VALUE                  0x0
+#define REG_MP7_MODE1_IC_1_VALUE                  0x1
 
 /* MP8_MODE1  - Registers (IC 1) */
 #define REG_MP8_MODE1_IC_1_ADDR                   0xF5C8
@@ -2888,22 +2888,22 @@
 /* SCLK_SCL_PIN  - Registers (IC 1) */
 #define REG_SCLK_SCL_PIN_IC_1_ADDR                0xF799
 #define REG_SCLK_SCL_PIN_IC_1_BYTE                2
-#define REG_SCLK_SCL_PIN_IC_1_VALUE               0x8
+#define REG_SCLK_SCL_PIN_IC_1_VALUE               0xE
 
 /* MISO_SDA_PIN  - Registers (IC 1) */
 #define REG_MISO_SDA_PIN_IC_1_ADDR                0xF79A
 #define REG_MISO_SDA_PIN_IC_1_BYTE                2
-#define REG_MISO_SDA_PIN_IC_1_VALUE               0x8
+#define REG_MISO_SDA_PIN_IC_1_VALUE               0xE
 
 /* SS_PIN  - Registers (IC 1) */
 #define REG_SS_PIN_IC_1_ADDR                      0xF79B
 #define REG_SS_PIN_IC_1_BYTE                      2
-#define REG_SS_PIN_IC_1_VALUE                     0x18
+#define REG_SS_PIN_IC_1_VALUE                     0x9
 
 /* MOSI_ADDR1_PIN  - Registers (IC 1) */
 #define REG_MOSI_ADDR1_PIN_IC_1_ADDR              0xF79C
 #define REG_MOSI_ADDR1_PIN_IC_1_BYTE              2
-#define REG_MOSI_ADDR1_PIN_IC_1_VALUE             0x18
+#define REG_MOSI_ADDR1_PIN_IC_1_VALUE             0x9
 
 /* SCLK_SCL_M_PIN  - Registers (IC 1) */
 #define REG_SCLK_SCL_M_PIN_IC_1_ADDR              0xF79D
@@ -2996,12 +2996,12 @@
 #define R6_PLL_WATCHDOG_PLL_WATCHDOG_IC_1_SHIFT   0
 
 /* CLK_GEN1_M (IC 1) */
-#define R7_CLK_GEN1_M_CLOCKGEN1_M_IC_1            0x02   /* 000000010b	[8:0] */
+#define R7_CLK_GEN1_M_CLOCKGEN1_M_IC_1            0x03   /* 000000011b	[8:0] */
 #define R7_CLK_GEN1_M_CLOCKGEN1_M_IC_1_MASK       0x1FF
 #define R7_CLK_GEN1_M_CLOCKGEN1_M_IC_1_SHIFT      0
 
 /* CLK_GEN1_N (IC 1) */
-#define R8_CLK_GEN1_N_CLOCKGEN1_N_IC_1            0x03   /* 000000011b	[8:0] */
+#define R8_CLK_GEN1_N_CLOCKGEN1_N_IC_1            0x02   /* 000000010b	[8:0] */
 #define R8_CLK_GEN1_N_CLOCKGEN1_N_IC_1_MASK       0x1FF
 #define R8_CLK_GEN1_N_CLOCKGEN1_N_IC_1_SHIFT      0
 
@@ -3047,8 +3047,8 @@
 #define R15_POWER_ENABLE0_SOUT1_PWR_IC_1          0x0    /* 0b	[5] */
 #define R15_POWER_ENABLE0_SOUT2_PWR_IC_1          0x0    /* 0b	[6] */
 #define R15_POWER_ENABLE0_SOUT3_PWR_IC_1          0x0    /* 0b	[7] */
-#define R15_POWER_ENABLE0_ASRCBANK0_PWR_IC_1      0x1    /* 1b	[8] */
-#define R15_POWER_ENABLE0_ASRCBANK1_PWR_IC_1      0x1    /* 1b	[9] */
+#define R15_POWER_ENABLE0_ASRCBANK0_PWR_IC_1      0x0    /* 0b	[8] */
+#define R15_POWER_ENABLE0_ASRCBANK1_PWR_IC_1      0x0    /* 0b	[9] */
 #define R15_POWER_ENABLE0_CLK_GEN1_PWR_IC_1       0x1    /* 1b	[10] */
 #define R15_POWER_ENABLE0_CLK_GEN2_PWR_IC_1       0x1    /* 1b	[11] */
 #define R15_POWER_ENABLE0_CLK_GEN3_PWR_IC_1       0x1    /* 1b	[12] */
@@ -7069,7 +7069,7 @@
 #define R313_MP6_MODE1_SS_SELECT1_IC_1_SHIFT      8
 
 /* MP7_MODE1 (IC 1) */
-#define R314_MP7_MODE1_MP_ENABLE1_IC_1            0x0    /* 0b	[0] */
+#define R314_MP7_MODE1_MP_ENABLE1_IC_1            0x1    /* 1b	[0] */
 #define R314_MP7_MODE1_MP_MODE1_IC_1              0x0    /* 000b	[3:1] */
 #define R314_MP7_MODE1_DEBOUNCE_VALUE1_IC_1       0x0    /* 0000b	[7:4] */
 #define R314_MP7_MODE1_SS_SELECT1_IC_1            0x0    /* 000b	[10:8] */
@@ -8577,8 +8577,8 @@
 #define R572_SPDIF_TX_PIN_SPDIF_TX_PULL_IC_1_SHIFT 4
 
 /* SCLK_SCL_PIN (IC 1) */
-#define R573_SCLK_SCL_PIN_SCLK_SCL_DRIVE_IC_1     0x0    /* 00b	[1:0] */
-#define R573_SCLK_SCL_PIN_SCLK_SCL_SLEW_IC_1      0x2    /* 10b	[3:2] */
+#define R573_SCLK_SCL_PIN_SCLK_SCL_DRIVE_IC_1     0x2    /* 10b	[1:0] */
+#define R573_SCLK_SCL_PIN_SCLK_SCL_SLEW_IC_1      0x3    /* 11b	[3:2] */
 #define R573_SCLK_SCL_PIN_SCLK_SCL_PULL_IC_1      0x0    /* 0b	[4] */
 #define R573_SCLK_SCL_PIN_SCLK_SCL_DRIVE_IC_1_MASK 0x3
 #define R573_SCLK_SCL_PIN_SCLK_SCL_DRIVE_IC_1_SHIFT 0
@@ -8588,8 +8588,8 @@
 #define R573_SCLK_SCL_PIN_SCLK_SCL_PULL_IC_1_SHIFT 4
 
 /* MISO_SDA_PIN (IC 1) */
-#define R574_MISO_SDA_PIN_MISO_SDA_DRIVE_IC_1     0x0    /* 00b	[1:0] */
-#define R574_MISO_SDA_PIN_MISO_SDA_SLEW_IC_1      0x2    /* 10b	[3:2] */
+#define R574_MISO_SDA_PIN_MISO_SDA_DRIVE_IC_1     0x2    /* 10b	[1:0] */
+#define R574_MISO_SDA_PIN_MISO_SDA_SLEW_IC_1      0x3    /* 11b	[3:2] */
 #define R574_MISO_SDA_PIN_MISO_SDA_PULL_IC_1      0x0    /* 0b	[4] */
 #define R574_MISO_SDA_PIN_MISO_SDA_DRIVE_IC_1_MASK 0x3
 #define R574_MISO_SDA_PIN_MISO_SDA_DRIVE_IC_1_SHIFT 0
@@ -8599,9 +8599,9 @@
 #define R574_MISO_SDA_PIN_MISO_SDA_PULL_IC_1_SHIFT 4
 
 /* SS_PIN (IC 1) */
-#define R575_SS_PIN_SS_DRIVE_IC_1                 0x0    /* 00b	[1:0] */
+#define R575_SS_PIN_SS_DRIVE_IC_1                 0x1    /* 01b	[1:0] */
 #define R575_SS_PIN_SS_SLEW_IC_1                  0x2    /* 10b	[3:2] */
-#define R575_SS_PIN_SS_PULL_IC_1                  0x1    /* 1b	[4] */
+#define R575_SS_PIN_SS_PULL_IC_1                  0x0    /* 0b	[4] */
 #define R575_SS_PIN_SS_DRIVE_IC_1_MASK            0x3
 #define R575_SS_PIN_SS_DRIVE_IC_1_SHIFT           0
 #define R575_SS_PIN_SS_SLEW_IC_1_MASK             0xC
@@ -8610,9 +8610,9 @@
 #define R575_SS_PIN_SS_PULL_IC_1_SHIFT            4
 
 /* MOSI_ADDR1_PIN (IC 1) */
-#define R576_MOSI_ADDR1_PIN_MOSI_ADDR1_DRIVE_IC_1 0x0    /* 00b	[1:0] */
+#define R576_MOSI_ADDR1_PIN_MOSI_ADDR1_DRIVE_IC_1 0x1    /* 01b	[1:0] */
 #define R576_MOSI_ADDR1_PIN_MOSI_ADDR1_SLEW_IC_1  0x2    /* 10b	[3:2] */
-#define R576_MOSI_ADDR1_PIN_MOSI_ADDR1_PULL_IC_1  0x1    /* 1b	[4] */
+#define R576_MOSI_ADDR1_PIN_MOSI_ADDR1_PULL_IC_1  0x0    /* 0b	[4] */
 #define R576_MOSI_ADDR1_PIN_MOSI_ADDR1_DRIVE_IC_1_MASK 0x3
 #define R576_MOSI_ADDR1_PIN_MOSI_ADDR1_DRIVE_IC_1_SHIFT 0
 #define R576_MOSI_ADDR1_PIN_MOSI_ADDR1_SLEW_IC_1_MASK 0xC

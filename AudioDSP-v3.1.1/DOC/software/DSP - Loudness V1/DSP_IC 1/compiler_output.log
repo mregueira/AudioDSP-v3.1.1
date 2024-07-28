@@ -1,11 +1,11 @@
 ADAU145X Assembler, Analog Devices Inc.
 Version: 4.7.0,1827  (built 4/5/2022)
 
-##### Compile Started: Saturday, July 20, 2024 12:43:34 PM #####
+##### Compile Started: Sunday, July 28, 2024 11:13:38 AM #####
 ADAU145X Assembler, Analog Devices Inc.
 Version: 4.7.0,1827  (built 4/5/2022)
 
-##### Compile Started: Saturday, July 20, 2024 12:43:34 PM #####
+##### Compile Started: Sunday, July 28, 2024 11:13:38 AM #####
 ##### Compile succeeded:  0 errors, 0 warnings #####
 
 ##### Summary #####
@@ -34,26 +34,26 @@ G2-LP1                        27        49        12      13      0
 G3-LP1                        27        49        12      13      0
 G5-LP4                        27        49        12      11      0
 Tone1                         32        32        13      2       0
-XFadeIN1                      15        16        1       2       0
-XFadeIN2                      15        16        1       2       0
-Add1                          10        10        0       1       0
+XFade1                        15        16        1       2       0
+XFade2                        15        16        1       2       0
 Add2                          10        10        0       1       0
+Add1                          10        10        0       1       0
 LOUD-COMP                     7         7         1       2       0
 VOL                           7         7         1       0       0
 COMP_IN                       7         7         0       1       0
-G3-DS1                        5         5         0       0       0
 G4-DS1                        5         5         0       0       0
-G1-DS1                        5         5         0       0       0
 G2-DS1                        5         5         0       0       0
+G3-DS1                        5         5         0       0       0
+G1-DS1                        5         5         0       0       0
 Input1                        4         4         0       2       0
 SLEW_IN                       4         4         0       1       0
-Band8K-SEL                    2         2         1       1       0
-Band16K-SEL                   2         2         1       1       0
-DC-LED                        2         2         1       1       0
 DCCOMP0                       2         2         1       1       0
-DCCOMP1                       2         2         1       1       0
 DCCOMP_IN                     2         2         1       1       0
 LOUD-SEL                      2         2         1       1       0
+DC-LED                        2         2         1       1       0
+Band16K-SEL                   2         2         1       1       0
+Band8K-SEL                    2         2         1       1       0
+DCCOMP1                       2         2         1       1       0
 LED                           2         2         0       0       0
 Output2                       2         2         0       0       0
 Output1                       2         2         0       0       0

@@ -1,7 +1,7 @@
 /*
  * File:           defines.h
  *
- * Created:        Saturday, July 20, 2024 12:43:43 PM
+ * Created:        Sunday, July 28, 2024 11:13:45 AM
  * Description:    DSP IC default download data definitions.
  *
  * This software is distributed in the hope that it will be useful,
@@ -19,8 +19,8 @@
 #ifndef __DEFINES_H__
 #define __DEFINES_H__
 
-#define BufferSize_IC_1     	28850
-#define NumTransactions_IC_1	70
+#define BufferSize_IC_1     	28870
+#define NumTransactions_IC_1	75
 
 
 #endif
