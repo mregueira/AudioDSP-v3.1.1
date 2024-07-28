@@ -367,6 +367,358 @@ int main(void)
 
   HAL_Delay(100);
 
+  // Data pre-load
+  data_SafeLoad[2] = 0x00;
+  data_SafeLoad[1] = 0x00;
+  data_SafeLoad[0] = 0x00;
+
+  address_SafeLoad[1] = 0x00;
+  address_SafeLoad[0] = 0x00;
+
+  num_SafeLoad_Lower[3] = 0x01;
+  num_SafeLoad_Lower[2] = 0x00;
+  num_SafeLoad_Lower[1] = 0x00;
+  num_SafeLoad_Lower[0] = 0x00;
+
+  num_SafeLoad_Upper[3] = 0x00;
+  num_SafeLoad_Upper[2] = 0x00;
+  num_SafeLoad_Upper[1] = 0x00;
+  num_SafeLoad_Upper[0] = 0x00;
+
+  for(k=0; k<10; k++) // Pre-load Filters 32Hz - 16KHz
+  {
+	  while(tx_check < 3)
+	  {
+		  tx_check = 0;
+		  data_SafeLoad[3] = 29 - pote[k];
+		  address_SafeLoad[3] = 0xFF & (BandAddress[k]);
+		  address_SafeLoad[2] = 0xFF & ((BandAddress[k])>>8);
+		  Safeload_Write();
+		  delay_us(100);
+		  stat = HAL_I2C_Mem_Read(&hi2c1, DSP0_ADDR, BandAddress[k], 2, aux, 4, 1000);
+		  stat = 0;
+		  if(aux[3] == data_SafeLoad[3])
+		  {
+			  tx_check++;
+		  }
+		  stat = HAL_I2C_Mem_Read(&hi2c1, DSP1_ADDR, BandAddress[k], 2, aux, 4, 1000);
+		  stat = 0;
+		  if(aux[3] == data_SafeLoad[3])
+		  {
+			  tx_check++;
+		  }
+		  stat = HAL_I2C_Mem_Read(&hi2c1, DSP2_ADDR, BandAddress[k], 2, aux, 4, 1000);
+		  stat = 0;
+		  if(aux[3] == data_SafeLoad[3])
+		  {
+			  tx_check++;
+		  }
+	  }
+	  tx_check = 0;
+  }
+
+  while(tx_check < 3) // Pre-load Volume
+  {
+	  tx_check = 0;
+	  pote_aux = 29 - pote[VOL_ARRAY];
+	  data_SafeLoad[3] = 0xFF & (vol_data[pote_aux]);
+	  data_SafeLoad[2] = 0xFF & ((vol_data[pote_aux])>>8);
+	  data_SafeLoad[1] = 0xFF & ((vol_data[pote_aux])>>16);
+	  data_SafeLoad[0] = 0xFF & ((vol_data[pote_aux])>>24);
+	  address_SafeLoad[3] = 0xFF & (BandAddress[VOL_ARRAY]);
+	  address_SafeLoad[2] = 0xFF & ((BandAddress[VOL_ARRAY])>>8);
+	  Safeload_Write();
+	  delay_us(100);
+	  stat = HAL_I2C_Mem_Read(&hi2c1, DSP0_ADDR, BandAddress[VOL_ARRAY], 2, aux, 4, 1000);
+	  stat = 0;
+	  if(aux[3] == data_SafeLoad[3])
+	  {
+		  if(aux[2] == data_SafeLoad[2])
+		  {
+			  if(aux[1] == data_SafeLoad[1])
+			  {
+				  if(aux[0] == data_SafeLoad[0])
+				  {
+					  tx_check++;
+				  }
+			  }
+		  }
+	  }
+	  stat = HAL_I2C_Mem_Read(&hi2c1, DSP1_ADDR, BandAddress[VOL_ARRAY], 2, aux, 4, 1000);
+	  stat = 0;
+	  if(aux[3] == data_SafeLoad[3])
+	  {
+		  if(aux[2] == data_SafeLoad[2])
+		  {
+			  if(aux[1] == data_SafeLoad[1])
+			  {
+				  if(aux[0] == data_SafeLoad[0])
+				  {
+					  tx_check++;
+				  }
+			  }
+		  }
+	  }
+	  stat = HAL_I2C_Mem_Read(&hi2c1, DSP2_ADDR, BandAddress[VOL_ARRAY], 2, aux, 4, 1000);
+	  stat = 0;
+	  if(aux[3] == data_SafeLoad[3])
+	  {
+		  if(aux[2] == data_SafeLoad[2])
+		  {
+			  if(aux[1] == data_SafeLoad[1])
+			  {
+				  if(aux[0] == data_SafeLoad[0])
+				  {
+					  tx_check++;
+				  }
+			  }
+		  }
+	  }
+  }
+  tx_check = 0;
+
+  while(tx_check < 3) // Pre-load Loudness LOW
+  {
+	  tx_check = 0;
+	  pote_aux = 29 - pote[LOUD_LOW_ARRAY];
+
+	  data_SafeLoad[3] = 0xFF & (boost_data[pote_aux]);
+	  data_SafeLoad[2] = 0xFF & ((boost_data[pote_aux])>>8);
+	  data_SafeLoad[1] = 0xFF & ((boost_data[pote_aux])>>16);
+	  data_SafeLoad[0] = 0xFF & ((boost_data[pote_aux])>>24);
+	  address_SafeLoad[3] = 0xFF & (BandAddress[LOUD_LOW_ARRAY]);
+	  address_SafeLoad[2] = 0xFF & ((BandAddress[LOUD_LOW_ARRAY])>>8);
+	  Safeload_Write();
+	  delay_us(100);
+	  stat = HAL_I2C_Mem_Read(&hi2c1, DSP0_ADDR, BandAddress[LOUD_LOW_ARRAY], 2, aux, 4, 1000);
+	  stat = 0;
+	  if(aux[3] == data_SafeLoad[3])
+	  {
+		  if(aux[2] == data_SafeLoad[2])
+		  {
+			  if(aux[1] == data_SafeLoad[1])
+			  {
+				  if(aux[0] == data_SafeLoad[0])
+				  {
+					  tx_check++;
+				  }
+			  }
+		  }
+	  }
+	  stat = HAL_I2C_Mem_Read(&hi2c1, DSP1_ADDR, BandAddress[LOUD_LOW_ARRAY], 2, aux, 4, 1000);
+	  stat = 0;
+	  if(aux[3] == data_SafeLoad[3])
+	  {
+		  if(aux[2] == data_SafeLoad[2])
+		  {
+			  if(aux[1] == data_SafeLoad[1])
+			  {
+				  if(aux[0] == data_SafeLoad[0])
+				  {
+					  tx_check++;
+				  }
+			  }
+		  }
+	  }
+	  stat = HAL_I2C_Mem_Read(&hi2c1, DSP2_ADDR, BandAddress[LOUD_LOW_ARRAY], 2, aux, 4, 1000);
+	  stat = 0;
+	  if(aux[3] == data_SafeLoad[3])
+	  {
+		  if(aux[2] == data_SafeLoad[2])
+		  {
+			  if(aux[1] == data_SafeLoad[1])
+			  {
+				  if(aux[0] == data_SafeLoad[0])
+				  {
+					  tx_check++;
+				  }
+			  }
+		  }
+	  }
+  }
+  tx_check = 0;
+
+  while(tx_check < 3) // Pre-load Loudness HIGH
+  {
+	  tx_check = 0;
+	  pote_aux = 29 - pote[LOUD_HIGH_ARRAY];
+
+	  data_SafeLoad[3] = 0xFF & (boost_data[pote_aux]);
+	  data_SafeLoad[2] = 0xFF & ((boost_data[pote_aux])>>8);
+	  data_SafeLoad[1] = 0xFF & ((boost_data[pote_aux])>>16);
+	  data_SafeLoad[0] = 0xFF & ((boost_data[pote_aux])>>24);
+	  address_SafeLoad[3] = 0xFF & (BandAddress[LOUD_HIGH_ARRAY]);
+	  address_SafeLoad[2] = 0xFF & ((BandAddress[LOUD_HIGH_ARRAY])>>8);
+	  Safeload_Write();
+	  delay_us(100);
+	  stat = HAL_I2C_Mem_Read(&hi2c1, DSP0_ADDR, BandAddress[LOUD_HIGH_ARRAY], 2, aux, 4, 1000);
+	  stat = 0;
+	  if(aux[3] == data_SafeLoad[3])
+	  {
+		  if(aux[2] == data_SafeLoad[2])
+		  {
+			  if(aux[1] == data_SafeLoad[1])
+			  {
+				  if(aux[0] == data_SafeLoad[0])
+				  {
+					  tx_check++;
+				  }
+			  }
+		  }
+	  }
+	  stat = HAL_I2C_Mem_Read(&hi2c1, DSP1_ADDR, BandAddress[LOUD_HIGH_ARRAY], 2, aux, 4, 1000);
+	  stat = 0;
+	  if(aux[3] == data_SafeLoad[3])
+	  {
+		  if(aux[2] == data_SafeLoad[2])
+		  {
+			  if(aux[1] == data_SafeLoad[1])
+			  {
+				  if(aux[0] == data_SafeLoad[0])
+				  {
+					  tx_check++;
+				  }
+			  }
+		  }
+	  }
+	  stat = HAL_I2C_Mem_Read(&hi2c1, DSP2_ADDR, BandAddress[LOUD_HIGH_ARRAY], 2, aux, 4, 1000);
+	  stat = 0;
+	  if(aux[3] == data_SafeLoad[3])
+	  {
+		  if(aux[2] == data_SafeLoad[2])
+		  {
+			  if(aux[1] == data_SafeLoad[1])
+			  {
+				  if(aux[0] == data_SafeLoad[0])
+				  {
+					  tx_check++;
+				  }
+			  }
+		  }
+	  }
+  }
+  tx_check = 0;
+
+  while(tx_check < 3) // Pre-load Loudness GRL
+  {
+	  tx_check = 0;
+	  pote_aux = pote[LOUD_GRL_ARRAY];
+
+	  data_SafeLoad[3] = 0xFF & (loud_data[pote_aux]);
+	  data_SafeLoad[2] = 0xFF & ((loud_data[pote_aux])>>8);
+	  data_SafeLoad[1] = 0xFF & ((loud_data[pote_aux])>>16);
+	  data_SafeLoad[0] = 0xFF & ((loud_data[pote_aux])>>24);
+	  address_SafeLoad[3] = 0xFF & (BandAddress[LOUD_GRL_ARRAY]);
+	  address_SafeLoad[2] = 0xFF & ((BandAddress[LOUD_GRL_ARRAY])>>8);
+	  Safeload_Write();
+	  delay_us(100);
+	  stat = HAL_I2C_Mem_Read(&hi2c1, DSP0_ADDR, BandAddress[LOUD_GRL_ARRAY], 2, aux, 4, 1000);
+	  stat = 0;
+	  if(aux[3] == data_SafeLoad[3])
+	  {
+		  if(aux[2] == data_SafeLoad[2])
+		  {
+			  if(aux[1] == data_SafeLoad[1])
+			  {
+				  if(aux[0] == data_SafeLoad[0])
+				  {
+					  tx_check++;
+				  }
+			  }
+		  }
+	  }
+	  stat = HAL_I2C_Mem_Read(&hi2c1, DSP1_ADDR, BandAddress[LOUD_GRL_ARRAY], 2, aux, 4, 1000);
+	  stat = 0;
+	  if(aux[3] == data_SafeLoad[3])
+	  {
+		  if(aux[2] == data_SafeLoad[2])
+		  {
+			  if(aux[1] == data_SafeLoad[1])
+			  {
+				  if(aux[0] == data_SafeLoad[0])
+				  {
+					  tx_check++;
+				  }
+			  }
+		  }
+	  }
+	  stat = HAL_I2C_Mem_Read(&hi2c1, DSP2_ADDR, BandAddress[LOUD_GRL_ARRAY], 2, aux, 4, 1000);
+	  stat = 0;
+	  if(aux[3] == data_SafeLoad[3])
+	  {
+		  if(aux[2] == data_SafeLoad[2])
+		  {
+			  if(aux[1] == data_SafeLoad[1])
+			  {
+				  if(aux[0] == data_SafeLoad[0])
+				  {
+					  tx_check++;
+				  }
+			  }
+		  }
+	  }
+  }
+  tx_check = 0;
+
+  while(tx_check < 3) // Pre-load Loudness COMP
+  {
+	  tx_check = 0;
+	  data_SafeLoad[3] = 0xFF & (comp_data[pote_aux]);
+	  data_SafeLoad[2] = 0xFF & ((comp_data[pote_aux])>>8);
+	  data_SafeLoad[1] = 0xFF & ((comp_data[pote_aux])>>16);
+	  data_SafeLoad[0] = 0xFF & ((comp_data[pote_aux])>>24);
+	  address_SafeLoad[3] = 0xFF & (MOD_LOUD_COMP_GAINALGNS145X2GAIN_ADDR);
+	  address_SafeLoad[2] = 0xFF & ((MOD_LOUD_COMP_GAINALGNS145X2GAIN_ADDR)>>8);
+	  Safeload_Write();
+	  delay_us(100);
+	  stat = HAL_I2C_Mem_Read(&hi2c1, DSP0_ADDR, MOD_LOUD_COMP_GAINALGNS145X2GAIN_ADDR, 2, aux, 4, 1000);
+	  stat = 0;
+	  if(aux[3] == data_SafeLoad[3])
+	  {
+		  if(aux[2] == data_SafeLoad[2])
+		  {
+			  if(aux[1] == data_SafeLoad[1])
+			  {
+				  if(aux[0] == data_SafeLoad[0])
+				  {
+					  tx_check++;
+				  }
+			  }
+		  }
+	  }
+	  stat = HAL_I2C_Mem_Read(&hi2c1, DSP1_ADDR, MOD_LOUD_COMP_GAINALGNS145X2GAIN_ADDR, 2, aux, 4, 1000);
+	  stat = 0;
+	  if(aux[3] == data_SafeLoad[3])
+	  {
+		  if(aux[2] == data_SafeLoad[2])
+		  {
+			  if(aux[1] == data_SafeLoad[1])
+			  {
+				  if(aux[0] == data_SafeLoad[0])
+				  {
+					  tx_check++;
+				  }
+			  }
+		  }
+	  }
+	  stat = HAL_I2C_Mem_Read(&hi2c1, DSP2_ADDR, MOD_LOUD_COMP_GAINALGNS145X2GAIN_ADDR, 2, aux, 4, 1000);
+	  stat = 0;
+	  if(aux[3] == data_SafeLoad[3])
+	  {
+		  if(aux[2] == data_SafeLoad[2])
+		  {
+			  if(aux[1] == data_SafeLoad[1])
+			  {
+				  if(aux[0] == data_SafeLoad[0])
+				  {
+					  tx_check++;
+				  }
+			  }
+		  }
+	  }
+  }
+  tx_check = 0;
+
   /* USER CODE END 2 */
 
   /* Infinite loop */
