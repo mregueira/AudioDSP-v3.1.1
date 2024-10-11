@@ -1,7 +1,7 @@
 /*
  * File:           C:\Users\marce\OneDrive\Desktop\GitHub Repos\AudioDSP-v3.1.1\AudioDSP-v3.1.1\DOC\software\STM32\Core\Inc\DSP\DSP_IC_1_REG.h
  *
- * Created:        Sunday, July 28, 2024 11:13:45 AM
+ * Created:        Sunday, September 29, 2024 4:16:39 PM
  * Description:    DSP:IC 1 control register definitions.
  *
  * This software is distributed in the hope that it will be useful,
@@ -103,7 +103,7 @@
 /* POWER_ENABLE1  - Registers (IC 1) */
 #define REG_POWER_ENABLE1_IC_1_ADDR               0xF051
 #define REG_POWER_ENABLE1_IC_1_BYTE               2
-#define REG_POWER_ENABLE1_IC_1_VALUE              0x1
+#define REG_POWER_ENABLE1_IC_1_VALUE              0x0
 
 /* ASRC_INPUT0  - Registers (IC 1) */
 #define REG_ASRC_INPUT0_IC_1_ADDR                 0xF100
@@ -193,117 +193,117 @@
 /* SOUT_SOURCE1  - Registers (IC 1) */
 #define REG_SOUT_SOURCE1_IC_1_ADDR                0xF181
 #define REG_SOUT_SOURCE1_IC_1_BYTE                2
-#define REG_SOUT_SOURCE1_IC_1_VALUE               0x2
+#define REG_SOUT_SOURCE1_IC_1_VALUE               0x0
 
 /* SOUT_SOURCE2  - Registers (IC 1) */
 #define REG_SOUT_SOURCE2_IC_1_ADDR                0xF182
 #define REG_SOUT_SOURCE2_IC_1_BYTE                2
-#define REG_SOUT_SOURCE2_IC_1_VALUE               0x2
+#define REG_SOUT_SOURCE2_IC_1_VALUE               0x0
 
 /* SOUT_SOURCE3  - Registers (IC 1) */
 #define REG_SOUT_SOURCE3_IC_1_ADDR                0xF183
 #define REG_SOUT_SOURCE3_IC_1_BYTE                2
-#define REG_SOUT_SOURCE3_IC_1_VALUE               0x2
+#define REG_SOUT_SOURCE3_IC_1_VALUE               0x0
 
 /* SOUT_SOURCE4  - Registers (IC 1) */
 #define REG_SOUT_SOURCE4_IC_1_ADDR                0xF184
 #define REG_SOUT_SOURCE4_IC_1_BYTE                2
-#define REG_SOUT_SOURCE4_IC_1_VALUE               0x2
+#define REG_SOUT_SOURCE4_IC_1_VALUE               0x0
 
 /* SOUT_SOURCE5  - Registers (IC 1) */
 #define REG_SOUT_SOURCE5_IC_1_ADDR                0xF185
 #define REG_SOUT_SOURCE5_IC_1_BYTE                2
-#define REG_SOUT_SOURCE5_IC_1_VALUE               0x2
+#define REG_SOUT_SOURCE5_IC_1_VALUE               0x0
 
 /* SOUT_SOURCE6  - Registers (IC 1) */
 #define REG_SOUT_SOURCE6_IC_1_ADDR                0xF186
 #define REG_SOUT_SOURCE6_IC_1_BYTE                2
-#define REG_SOUT_SOURCE6_IC_1_VALUE               0x2
+#define REG_SOUT_SOURCE6_IC_1_VALUE               0x0
 
 /* SOUT_SOURCE7  - Registers (IC 1) */
 #define REG_SOUT_SOURCE7_IC_1_ADDR                0xF187
 #define REG_SOUT_SOURCE7_IC_1_BYTE                2
-#define REG_SOUT_SOURCE7_IC_1_VALUE               0x2
+#define REG_SOUT_SOURCE7_IC_1_VALUE               0x0
 
 /* SOUT_SOURCE8  - Registers (IC 1) */
 #define REG_SOUT_SOURCE8_IC_1_ADDR                0xF188
 #define REG_SOUT_SOURCE8_IC_1_BYTE                2
-#define REG_SOUT_SOURCE8_IC_1_VALUE               0x2
+#define REG_SOUT_SOURCE8_IC_1_VALUE               0x0
 
 /* SOUT_SOURCE9  - Registers (IC 1) */
 #define REG_SOUT_SOURCE9_IC_1_ADDR                0xF189
 #define REG_SOUT_SOURCE9_IC_1_BYTE                2
-#define REG_SOUT_SOURCE9_IC_1_VALUE               0x2
+#define REG_SOUT_SOURCE9_IC_1_VALUE               0x0
 
 /* SOUT_SOURCE10  - Registers (IC 1) */
 #define REG_SOUT_SOURCE10_IC_1_ADDR               0xF18A
 #define REG_SOUT_SOURCE10_IC_1_BYTE               2
-#define REG_SOUT_SOURCE10_IC_1_VALUE              0x2
+#define REG_SOUT_SOURCE10_IC_1_VALUE              0x0
 
 /* SOUT_SOURCE11  - Registers (IC 1) */
 #define REG_SOUT_SOURCE11_IC_1_ADDR               0xF18B
 #define REG_SOUT_SOURCE11_IC_1_BYTE               2
-#define REG_SOUT_SOURCE11_IC_1_VALUE              0x2
+#define REG_SOUT_SOURCE11_IC_1_VALUE              0x0
 
 /* SOUT_SOURCE12  - Registers (IC 1) */
 #define REG_SOUT_SOURCE12_IC_1_ADDR               0xF18C
 #define REG_SOUT_SOURCE12_IC_1_BYTE               2
-#define REG_SOUT_SOURCE12_IC_1_VALUE              0x2
+#define REG_SOUT_SOURCE12_IC_1_VALUE              0x0
 
 /* SOUT_SOURCE13  - Registers (IC 1) */
 #define REG_SOUT_SOURCE13_IC_1_ADDR               0xF18D
 #define REG_SOUT_SOURCE13_IC_1_BYTE               2
-#define REG_SOUT_SOURCE13_IC_1_VALUE              0x2
+#define REG_SOUT_SOURCE13_IC_1_VALUE              0x0
 
 /* SOUT_SOURCE14  - Registers (IC 1) */
 #define REG_SOUT_SOURCE14_IC_1_ADDR               0xF18E
 #define REG_SOUT_SOURCE14_IC_1_BYTE               2
-#define REG_SOUT_SOURCE14_IC_1_VALUE              0x2
+#define REG_SOUT_SOURCE14_IC_1_VALUE              0x0
 
 /* SOUT_SOURCE15  - Registers (IC 1) */
 #define REG_SOUT_SOURCE15_IC_1_ADDR               0xF18F
 #define REG_SOUT_SOURCE15_IC_1_BYTE               2
-#define REG_SOUT_SOURCE15_IC_1_VALUE              0x2
+#define REG_SOUT_SOURCE15_IC_1_VALUE              0x0
 
 /* SOUT_SOURCE16  - Registers (IC 1) */
 #define REG_SOUT_SOURCE16_IC_1_ADDR               0xF190
 #define REG_SOUT_SOURCE16_IC_1_BYTE               2
-#define REG_SOUT_SOURCE16_IC_1_VALUE              0x2
+#define REG_SOUT_SOURCE16_IC_1_VALUE              0x0
 
 /* SOUT_SOURCE17  - Registers (IC 1) */
 #define REG_SOUT_SOURCE17_IC_1_ADDR               0xF191
 #define REG_SOUT_SOURCE17_IC_1_BYTE               2
-#define REG_SOUT_SOURCE17_IC_1_VALUE              0x2
+#define REG_SOUT_SOURCE17_IC_1_VALUE              0x0
 
 /* SOUT_SOURCE18  - Registers (IC 1) */
 #define REG_SOUT_SOURCE18_IC_1_ADDR               0xF192
 #define REG_SOUT_SOURCE18_IC_1_BYTE               2
-#define REG_SOUT_SOURCE18_IC_1_VALUE              0x2
+#define REG_SOUT_SOURCE18_IC_1_VALUE              0x0
 
 /* SOUT_SOURCE19  - Registers (IC 1) */
 #define REG_SOUT_SOURCE19_IC_1_ADDR               0xF193
 #define REG_SOUT_SOURCE19_IC_1_BYTE               2
-#define REG_SOUT_SOURCE19_IC_1_VALUE              0x2
+#define REG_SOUT_SOURCE19_IC_1_VALUE              0x0
 
 /* SOUT_SOURCE20  - Registers (IC 1) */
 #define REG_SOUT_SOURCE20_IC_1_ADDR               0xF194
 #define REG_SOUT_SOURCE20_IC_1_BYTE               2
-#define REG_SOUT_SOURCE20_IC_1_VALUE              0x2
+#define REG_SOUT_SOURCE20_IC_1_VALUE              0x0
 
 /* SOUT_SOURCE21  - Registers (IC 1) */
 #define REG_SOUT_SOURCE21_IC_1_ADDR               0xF195
 #define REG_SOUT_SOURCE21_IC_1_BYTE               2
-#define REG_SOUT_SOURCE21_IC_1_VALUE              0x2
+#define REG_SOUT_SOURCE21_IC_1_VALUE              0x0
 
 /* SOUT_SOURCE22  - Registers (IC 1) */
 #define REG_SOUT_SOURCE22_IC_1_ADDR               0xF196
 #define REG_SOUT_SOURCE22_IC_1_BYTE               2
-#define REG_SOUT_SOURCE22_IC_1_VALUE              0x2
+#define REG_SOUT_SOURCE22_IC_1_VALUE              0x0
 
 /* SOUT_SOURCE23  - Registers (IC 1) */
 #define REG_SOUT_SOURCE23_IC_1_ADDR               0xF197
 #define REG_SOUT_SOURCE23_IC_1_BYTE               2
-#define REG_SOUT_SOURCE23_IC_1_VALUE              0x2
+#define REG_SOUT_SOURCE23_IC_1_VALUE              0x0
 
 /* SPDIFTX_INPUT  - Registers (IC 1) */
 #define REG_SPDIFTX_INPUT_IC_1_ADDR               0xF1C0
@@ -328,7 +328,7 @@
 /* SERIAL_BYTE_1_1  - Registers (IC 1) */
 #define REG_SERIAL_BYTE_1_1_IC_1_ADDR             0xF205
 #define REG_SERIAL_BYTE_1_1_IC_1_BYTE             2
-#define REG_SERIAL_BYTE_1_1_IC_1_VALUE            0x2
+#define REG_SERIAL_BYTE_1_1_IC_1_VALUE            0x22
 
 /* SERIAL_BYTE_2_0  - Registers (IC 1) */
 #define REG_SERIAL_BYTE_2_0_IC_1_ADDR             0xF208
@@ -338,7 +338,7 @@
 /* SERIAL_BYTE_2_1  - Registers (IC 1) */
 #define REG_SERIAL_BYTE_2_1_IC_1_ADDR             0xF209
 #define REG_SERIAL_BYTE_2_1_IC_1_BYTE             2
-#define REG_SERIAL_BYTE_2_1_IC_1_VALUE            0x2
+#define REG_SERIAL_BYTE_2_1_IC_1_VALUE            0x22
 
 /* SERIAL_BYTE_3_0  - Registers (IC 1) */
 #define REG_SERIAL_BYTE_3_0_IC_1_ADDR             0xF20C
@@ -348,7 +348,7 @@
 /* SERIAL_BYTE_3_1  - Registers (IC 1) */
 #define REG_SERIAL_BYTE_3_1_IC_1_ADDR             0xF20D
 #define REG_SERIAL_BYTE_3_1_IC_1_BYTE             2
-#define REG_SERIAL_BYTE_3_1_IC_1_VALUE            0x2
+#define REG_SERIAL_BYTE_3_1_IC_1_VALUE            0x22
 
 /* SERIAL_BYTE_4_0  - Registers (IC 1) */
 #define REG_SERIAL_BYTE_4_0_IC_1_ADDR             0xF210
@@ -368,7 +368,7 @@
 /* SERIAL_BYTE_5_1  - Registers (IC 1) */
 #define REG_SERIAL_BYTE_5_1_IC_1_ADDR             0xF215
 #define REG_SERIAL_BYTE_5_1_IC_1_BYTE             2
-#define REG_SERIAL_BYTE_5_1_IC_1_VALUE            0x2
+#define REG_SERIAL_BYTE_5_1_IC_1_VALUE            0x22
 
 /* SERIAL_BYTE_6_0  - Registers (IC 1) */
 #define REG_SERIAL_BYTE_6_0_IC_1_ADDR             0xF218
@@ -378,7 +378,7 @@
 /* SERIAL_BYTE_6_1  - Registers (IC 1) */
 #define REG_SERIAL_BYTE_6_1_IC_1_ADDR             0xF219
 #define REG_SERIAL_BYTE_6_1_IC_1_BYTE             2
-#define REG_SERIAL_BYTE_6_1_IC_1_VALUE            0x2
+#define REG_SERIAL_BYTE_6_1_IC_1_VALUE            0x22
 
 /* SERIAL_BYTE_7_0  - Registers (IC 1) */
 #define REG_SERIAL_BYTE_7_0_IC_1_ADDR             0xF21C
@@ -388,7 +388,7 @@
 /* SERIAL_BYTE_7_1  - Registers (IC 1) */
 #define REG_SERIAL_BYTE_7_1_IC_1_ADDR             0xF21D
 #define REG_SERIAL_BYTE_7_1_IC_1_BYTE             2
-#define REG_SERIAL_BYTE_7_1_IC_1_VALUE            0x2
+#define REG_SERIAL_BYTE_7_1_IC_1_VALUE            0x22
 
 /* FTDM_IN0  - Registers (IC 1) */
 #define REG_FTDM_IN0_IC_1_ADDR                    0xF300
@@ -1438,7 +1438,7 @@
 /* ASRC_MUTE  - Registers (IC 1) */
 #define REG_ASRC_MUTE_IC_1_ADDR                   0xF581
 #define REG_ASRC_MUTE_IC_1_BYTE                   2
-#define REG_ASRC_MUTE_IC_1_VALUE                  0x0
+#define REG_ASRC_MUTE_IC_1_VALUE                  0x3FF
 
 /* ASRC0_RATIO  - Registers (IC 1) */
 #define REG_ASRC0_RATIO_IC_1_ADDR                 0xF582
@@ -3080,7 +3080,7 @@
 #define R15_POWER_ENABLE0_CLK_GEN3_PWR_IC_1_SHIFT 12
 
 /* POWER_ENABLE1 (IC 1) */
-#define R16_POWER_ENABLE1_ADC_PWR_IC_1            0x1    /* 1b	[0] */
+#define R16_POWER_ENABLE1_ADC_PWR_IC_1            0x0    /* 0b	[0] */
 #define R16_POWER_ENABLE1_RX_PWR_IC_1             0x0    /* 0b	[1] */
 #define R16_POWER_ENABLE1_TX_PWR_IC_1             0x0    /* 0b	[2] */
 #define R16_POWER_ENABLE1_PDM0_PWR_IC_1           0x0    /* 0b	[3] */
@@ -3209,7 +3209,7 @@
 #define R33_SOUT_SOURCE0_SOUT_ASRC_SELECT_IC_1_SHIFT 3
 
 /* SOUT_SOURCE1 (IC 1) */
-#define R34_SOUT_SOURCE1_SOUT_SOURCE_IC_1         0x2    /* 010b	[2:0] */
+#define R34_SOUT_SOURCE1_SOUT_SOURCE_IC_1         0x0    /* 000b	[2:0] */
 #define R34_SOUT_SOURCE1_SOUT_ASRC_SELECT_IC_1    0x0    /* 000b	[5:3] */
 #define R34_SOUT_SOURCE1_SOUT_SOURCE_IC_1_MASK    0x7
 #define R34_SOUT_SOURCE1_SOUT_SOURCE_IC_1_SHIFT   0
@@ -3217,7 +3217,7 @@
 #define R34_SOUT_SOURCE1_SOUT_ASRC_SELECT_IC_1_SHIFT 3
 
 /* SOUT_SOURCE2 (IC 1) */
-#define R35_SOUT_SOURCE2_SOUT_SOURCE_IC_1         0x2    /* 010b	[2:0] */
+#define R35_SOUT_SOURCE2_SOUT_SOURCE_IC_1         0x0    /* 000b	[2:0] */
 #define R35_SOUT_SOURCE2_SOUT_ASRC_SELECT_IC_1    0x0    /* 000b	[5:3] */
 #define R35_SOUT_SOURCE2_SOUT_SOURCE_IC_1_MASK    0x7
 #define R35_SOUT_SOURCE2_SOUT_SOURCE_IC_1_SHIFT   0
@@ -3225,7 +3225,7 @@
 #define R35_SOUT_SOURCE2_SOUT_ASRC_SELECT_IC_1_SHIFT 3
 
 /* SOUT_SOURCE3 (IC 1) */
-#define R36_SOUT_SOURCE3_SOUT_SOURCE_IC_1         0x2    /* 010b	[2:0] */
+#define R36_SOUT_SOURCE3_SOUT_SOURCE_IC_1         0x0    /* 000b	[2:0] */
 #define R36_SOUT_SOURCE3_SOUT_ASRC_SELECT_IC_1    0x0    /* 000b	[5:3] */
 #define R36_SOUT_SOURCE3_SOUT_SOURCE_IC_1_MASK    0x7
 #define R36_SOUT_SOURCE3_SOUT_SOURCE_IC_1_SHIFT   0
@@ -3233,7 +3233,7 @@
 #define R36_SOUT_SOURCE3_SOUT_ASRC_SELECT_IC_1_SHIFT 3
 
 /* SOUT_SOURCE4 (IC 1) */
-#define R37_SOUT_SOURCE4_SOUT_SOURCE_IC_1         0x2    /* 010b	[2:0] */
+#define R37_SOUT_SOURCE4_SOUT_SOURCE_IC_1         0x0    /* 000b	[2:0] */
 #define R37_SOUT_SOURCE4_SOUT_ASRC_SELECT_IC_1    0x0    /* 000b	[5:3] */
 #define R37_SOUT_SOURCE4_SOUT_SOURCE_IC_1_MASK    0x7
 #define R37_SOUT_SOURCE4_SOUT_SOURCE_IC_1_SHIFT   0
@@ -3241,7 +3241,7 @@
 #define R37_SOUT_SOURCE4_SOUT_ASRC_SELECT_IC_1_SHIFT 3
 
 /* SOUT_SOURCE5 (IC 1) */
-#define R38_SOUT_SOURCE5_SOUT_SOURCE_IC_1         0x2    /* 010b	[2:0] */
+#define R38_SOUT_SOURCE5_SOUT_SOURCE_IC_1         0x0    /* 000b	[2:0] */
 #define R38_SOUT_SOURCE5_SOUT_ASRC_SELECT_IC_1    0x0    /* 000b	[5:3] */
 #define R38_SOUT_SOURCE5_SOUT_SOURCE_IC_1_MASK    0x7
 #define R38_SOUT_SOURCE5_SOUT_SOURCE_IC_1_SHIFT   0
@@ -3249,7 +3249,7 @@
 #define R38_SOUT_SOURCE5_SOUT_ASRC_SELECT_IC_1_SHIFT 3
 
 /* SOUT_SOURCE6 (IC 1) */
-#define R39_SOUT_SOURCE6_SOUT_SOURCE_IC_1         0x2    /* 010b	[2:0] */
+#define R39_SOUT_SOURCE6_SOUT_SOURCE_IC_1         0x0    /* 000b	[2:0] */
 #define R39_SOUT_SOURCE6_SOUT_ASRC_SELECT_IC_1    0x0    /* 000b	[5:3] */
 #define R39_SOUT_SOURCE6_SOUT_SOURCE_IC_1_MASK    0x7
 #define R39_SOUT_SOURCE6_SOUT_SOURCE_IC_1_SHIFT   0
@@ -3257,7 +3257,7 @@
 #define R39_SOUT_SOURCE6_SOUT_ASRC_SELECT_IC_1_SHIFT 3
 
 /* SOUT_SOURCE7 (IC 1) */
-#define R40_SOUT_SOURCE7_SOUT_SOURCE_IC_1         0x2    /* 010b	[2:0] */
+#define R40_SOUT_SOURCE7_SOUT_SOURCE_IC_1         0x0    /* 000b	[2:0] */
 #define R40_SOUT_SOURCE7_SOUT_ASRC_SELECT_IC_1    0x0    /* 000b	[5:3] */
 #define R40_SOUT_SOURCE7_SOUT_SOURCE_IC_1_MASK    0x7
 #define R40_SOUT_SOURCE7_SOUT_SOURCE_IC_1_SHIFT   0
@@ -3265,7 +3265,7 @@
 #define R40_SOUT_SOURCE7_SOUT_ASRC_SELECT_IC_1_SHIFT 3
 
 /* SOUT_SOURCE8 (IC 1) */
-#define R41_SOUT_SOURCE8_SOUT_SOURCE_IC_1         0x2    /* 010b	[2:0] */
+#define R41_SOUT_SOURCE8_SOUT_SOURCE_IC_1         0x0    /* 000b	[2:0] */
 #define R41_SOUT_SOURCE8_SOUT_ASRC_SELECT_IC_1    0x0    /* 000b	[5:3] */
 #define R41_SOUT_SOURCE8_SOUT_SOURCE_IC_1_MASK    0x7
 #define R41_SOUT_SOURCE8_SOUT_SOURCE_IC_1_SHIFT   0
@@ -3273,7 +3273,7 @@
 #define R41_SOUT_SOURCE8_SOUT_ASRC_SELECT_IC_1_SHIFT 3
 
 /* SOUT_SOURCE9 (IC 1) */
-#define R42_SOUT_SOURCE9_SOUT_SOURCE_IC_1         0x2    /* 010b	[2:0] */
+#define R42_SOUT_SOURCE9_SOUT_SOURCE_IC_1         0x0    /* 000b	[2:0] */
 #define R42_SOUT_SOURCE9_SOUT_ASRC_SELECT_IC_1    0x0    /* 000b	[5:3] */
 #define R42_SOUT_SOURCE9_SOUT_SOURCE_IC_1_MASK    0x7
 #define R42_SOUT_SOURCE9_SOUT_SOURCE_IC_1_SHIFT   0
@@ -3281,7 +3281,7 @@
 #define R42_SOUT_SOURCE9_SOUT_ASRC_SELECT_IC_1_SHIFT 3
 
 /* SOUT_SOURCE10 (IC 1) */
-#define R43_SOUT_SOURCE10_SOUT_SOURCE_IC_1        0x2    /* 010b	[2:0] */
+#define R43_SOUT_SOURCE10_SOUT_SOURCE_IC_1        0x0    /* 000b	[2:0] */
 #define R43_SOUT_SOURCE10_SOUT_ASRC_SELECT_IC_1   0x0    /* 000b	[5:3] */
 #define R43_SOUT_SOURCE10_SOUT_SOURCE_IC_1_MASK   0x7
 #define R43_SOUT_SOURCE10_SOUT_SOURCE_IC_1_SHIFT  0
@@ -3289,7 +3289,7 @@
 #define R43_SOUT_SOURCE10_SOUT_ASRC_SELECT_IC_1_SHIFT 3
 
 /* SOUT_SOURCE11 (IC 1) */
-#define R44_SOUT_SOURCE11_SOUT_SOURCE_IC_1        0x2    /* 010b	[2:0] */
+#define R44_SOUT_SOURCE11_SOUT_SOURCE_IC_1        0x0    /* 000b	[2:0] */
 #define R44_SOUT_SOURCE11_SOUT_ASRC_SELECT_IC_1   0x0    /* 000b	[5:3] */
 #define R44_SOUT_SOURCE11_SOUT_SOURCE_IC_1_MASK   0x7
 #define R44_SOUT_SOURCE11_SOUT_SOURCE_IC_1_SHIFT  0
@@ -3297,7 +3297,7 @@
 #define R44_SOUT_SOURCE11_SOUT_ASRC_SELECT_IC_1_SHIFT 3
 
 /* SOUT_SOURCE12 (IC 1) */
-#define R45_SOUT_SOURCE12_SOUT_SOURCE_IC_1        0x2    /* 010b	[2:0] */
+#define R45_SOUT_SOURCE12_SOUT_SOURCE_IC_1        0x0    /* 000b	[2:0] */
 #define R45_SOUT_SOURCE12_SOUT_ASRC_SELECT_IC_1   0x0    /* 000b	[5:3] */
 #define R45_SOUT_SOURCE12_SOUT_SOURCE_IC_1_MASK   0x7
 #define R45_SOUT_SOURCE12_SOUT_SOURCE_IC_1_SHIFT  0
@@ -3305,7 +3305,7 @@
 #define R45_SOUT_SOURCE12_SOUT_ASRC_SELECT_IC_1_SHIFT 3
 
 /* SOUT_SOURCE13 (IC 1) */
-#define R46_SOUT_SOURCE13_SOUT_SOURCE_IC_1        0x2    /* 010b	[2:0] */
+#define R46_SOUT_SOURCE13_SOUT_SOURCE_IC_1        0x0    /* 000b	[2:0] */
 #define R46_SOUT_SOURCE13_SOUT_ASRC_SELECT_IC_1   0x0    /* 000b	[5:3] */
 #define R46_SOUT_SOURCE13_SOUT_SOURCE_IC_1_MASK   0x7
 #define R46_SOUT_SOURCE13_SOUT_SOURCE_IC_1_SHIFT  0
@@ -3313,7 +3313,7 @@
 #define R46_SOUT_SOURCE13_SOUT_ASRC_SELECT_IC_1_SHIFT 3
 
 /* SOUT_SOURCE14 (IC 1) */
-#define R47_SOUT_SOURCE14_SOUT_SOURCE_IC_1        0x2    /* 010b	[2:0] */
+#define R47_SOUT_SOURCE14_SOUT_SOURCE_IC_1        0x0    /* 000b	[2:0] */
 #define R47_SOUT_SOURCE14_SOUT_ASRC_SELECT_IC_1   0x0    /* 000b	[5:3] */
 #define R47_SOUT_SOURCE14_SOUT_SOURCE_IC_1_MASK   0x7
 #define R47_SOUT_SOURCE14_SOUT_SOURCE_IC_1_SHIFT  0
@@ -3321,7 +3321,7 @@
 #define R47_SOUT_SOURCE14_SOUT_ASRC_SELECT_IC_1_SHIFT 3
 
 /* SOUT_SOURCE15 (IC 1) */
-#define R48_SOUT_SOURCE15_SOUT_SOURCE_IC_1        0x2    /* 010b	[2:0] */
+#define R48_SOUT_SOURCE15_SOUT_SOURCE_IC_1        0x0    /* 000b	[2:0] */
 #define R48_SOUT_SOURCE15_SOUT_ASRC_SELECT_IC_1   0x0    /* 000b	[5:3] */
 #define R48_SOUT_SOURCE15_SOUT_SOURCE_IC_1_MASK   0x7
 #define R48_SOUT_SOURCE15_SOUT_SOURCE_IC_1_SHIFT  0
@@ -3329,7 +3329,7 @@
 #define R48_SOUT_SOURCE15_SOUT_ASRC_SELECT_IC_1_SHIFT 3
 
 /* SOUT_SOURCE16 (IC 1) */
-#define R49_SOUT_SOURCE16_SOUT_SOURCE_IC_1        0x2    /* 010b	[2:0] */
+#define R49_SOUT_SOURCE16_SOUT_SOURCE_IC_1        0x0    /* 000b	[2:0] */
 #define R49_SOUT_SOURCE16_SOUT_ASRC_SELECT_IC_1   0x0    /* 000b	[5:3] */
 #define R49_SOUT_SOURCE16_SOUT_SOURCE_IC_1_MASK   0x7
 #define R49_SOUT_SOURCE16_SOUT_SOURCE_IC_1_SHIFT  0
@@ -3337,7 +3337,7 @@
 #define R49_SOUT_SOURCE16_SOUT_ASRC_SELECT_IC_1_SHIFT 3
 
 /* SOUT_SOURCE17 (IC 1) */
-#define R50_SOUT_SOURCE17_SOUT_SOURCE_IC_1        0x2    /* 010b	[2:0] */
+#define R50_SOUT_SOURCE17_SOUT_SOURCE_IC_1        0x0    /* 000b	[2:0] */
 #define R50_SOUT_SOURCE17_SOUT_ASRC_SELECT_IC_1   0x0    /* 000b	[5:3] */
 #define R50_SOUT_SOURCE17_SOUT_SOURCE_IC_1_MASK   0x7
 #define R50_SOUT_SOURCE17_SOUT_SOURCE_IC_1_SHIFT  0
@@ -3345,7 +3345,7 @@
 #define R50_SOUT_SOURCE17_SOUT_ASRC_SELECT_IC_1_SHIFT 3
 
 /* SOUT_SOURCE18 (IC 1) */
-#define R51_SOUT_SOURCE18_SOUT_SOURCE_IC_1        0x2    /* 010b	[2:0] */
+#define R51_SOUT_SOURCE18_SOUT_SOURCE_IC_1        0x0    /* 000b	[2:0] */
 #define R51_SOUT_SOURCE18_SOUT_ASRC_SELECT_IC_1   0x0    /* 000b	[5:3] */
 #define R51_SOUT_SOURCE18_SOUT_SOURCE_IC_1_MASK   0x7
 #define R51_SOUT_SOURCE18_SOUT_SOURCE_IC_1_SHIFT  0
@@ -3353,7 +3353,7 @@
 #define R51_SOUT_SOURCE18_SOUT_ASRC_SELECT_IC_1_SHIFT 3
 
 /* SOUT_SOURCE19 (IC 1) */
-#define R52_SOUT_SOURCE19_SOUT_SOURCE_IC_1        0x2    /* 010b	[2:0] */
+#define R52_SOUT_SOURCE19_SOUT_SOURCE_IC_1        0x0    /* 000b	[2:0] */
 #define R52_SOUT_SOURCE19_SOUT_ASRC_SELECT_IC_1   0x0    /* 000b	[5:3] */
 #define R52_SOUT_SOURCE19_SOUT_SOURCE_IC_1_MASK   0x7
 #define R52_SOUT_SOURCE19_SOUT_SOURCE_IC_1_SHIFT  0
@@ -3361,7 +3361,7 @@
 #define R52_SOUT_SOURCE19_SOUT_ASRC_SELECT_IC_1_SHIFT 3
 
 /* SOUT_SOURCE20 (IC 1) */
-#define R53_SOUT_SOURCE20_SOUT_SOURCE_IC_1        0x2    /* 010b	[2:0] */
+#define R53_SOUT_SOURCE20_SOUT_SOURCE_IC_1        0x0    /* 000b	[2:0] */
 #define R53_SOUT_SOURCE20_SOUT_ASRC_SELECT_IC_1   0x0    /* 000b	[5:3] */
 #define R53_SOUT_SOURCE20_SOUT_SOURCE_IC_1_MASK   0x7
 #define R53_SOUT_SOURCE20_SOUT_SOURCE_IC_1_SHIFT  0
@@ -3369,7 +3369,7 @@
 #define R53_SOUT_SOURCE20_SOUT_ASRC_SELECT_IC_1_SHIFT 3
 
 /* SOUT_SOURCE21 (IC 1) */
-#define R54_SOUT_SOURCE21_SOUT_SOURCE_IC_1        0x2    /* 010b	[2:0] */
+#define R54_SOUT_SOURCE21_SOUT_SOURCE_IC_1        0x0    /* 000b	[2:0] */
 #define R54_SOUT_SOURCE21_SOUT_ASRC_SELECT_IC_1   0x0    /* 000b	[5:3] */
 #define R54_SOUT_SOURCE21_SOUT_SOURCE_IC_1_MASK   0x7
 #define R54_SOUT_SOURCE21_SOUT_SOURCE_IC_1_SHIFT  0
@@ -3377,7 +3377,7 @@
 #define R54_SOUT_SOURCE21_SOUT_ASRC_SELECT_IC_1_SHIFT 3
 
 /* SOUT_SOURCE22 (IC 1) */
-#define R55_SOUT_SOURCE22_SOUT_SOURCE_IC_1        0x2    /* 010b	[2:0] */
+#define R55_SOUT_SOURCE22_SOUT_SOURCE_IC_1        0x0    /* 000b	[2:0] */
 #define R55_SOUT_SOURCE22_SOUT_ASRC_SELECT_IC_1   0x0    /* 000b	[5:3] */
 #define R55_SOUT_SOURCE22_SOUT_SOURCE_IC_1_MASK   0x7
 #define R55_SOUT_SOURCE22_SOUT_SOURCE_IC_1_SHIFT  0
@@ -3385,7 +3385,7 @@
 #define R55_SOUT_SOURCE22_SOUT_ASRC_SELECT_IC_1_SHIFT 3
 
 /* SOUT_SOURCE23 (IC 1) */
-#define R56_SOUT_SOURCE23_SOUT_SOURCE_IC_1        0x2    /* 010b	[2:0] */
+#define R56_SOUT_SOURCE23_SOUT_SOURCE_IC_1        0x0    /* 000b	[2:0] */
 #define R56_SOUT_SOURCE23_SOUT_ASRC_SELECT_IC_1   0x0    /* 000b	[5:3] */
 #define R56_SOUT_SOURCE23_SOUT_SOURCE_IC_1_MASK   0x7
 #define R56_SOUT_SOURCE23_SOUT_SOURCE_IC_1_SHIFT  0
@@ -3463,7 +3463,7 @@
 /* SERIAL_BYTE_1_1 (IC 1) */
 #define R61_SERIAL_BYTE_1_1_FS_IC_1               0x2    /* 010b	[2:0] */
 #define R61_SERIAL_BYTE_1_1_CLK_DOMAIN_IC_1       0x0    /* 00b	[4:3] */
-#define R61_SERIAL_BYTE_1_1_TRISTATE_IC_1         0x0    /* 0b	[5] */
+#define R61_SERIAL_BYTE_1_1_TRISTATE_IC_1         0x1    /* 1b	[5] */
 #define R61_SERIAL_BYTE_1_1_FS_IC_1_MASK          0x7
 #define R61_SERIAL_BYTE_1_1_FS_IC_1_SHIFT         0
 #define R61_SERIAL_BYTE_1_1_CLK_DOMAIN_IC_1_MASK  0x18
@@ -3500,7 +3500,7 @@
 /* SERIAL_BYTE_2_1 (IC 1) */
 #define R63_SERIAL_BYTE_2_1_FS_IC_1               0x2    /* 010b	[2:0] */
 #define R63_SERIAL_BYTE_2_1_CLK_DOMAIN_IC_1       0x0    /* 00b	[4:3] */
-#define R63_SERIAL_BYTE_2_1_TRISTATE_IC_1         0x0    /* 0b	[5] */
+#define R63_SERIAL_BYTE_2_1_TRISTATE_IC_1         0x1    /* 1b	[5] */
 #define R63_SERIAL_BYTE_2_1_FS_IC_1_MASK          0x7
 #define R63_SERIAL_BYTE_2_1_FS_IC_1_SHIFT         0
 #define R63_SERIAL_BYTE_2_1_CLK_DOMAIN_IC_1_MASK  0x18
@@ -3537,7 +3537,7 @@
 /* SERIAL_BYTE_3_1 (IC 1) */
 #define R65_SERIAL_BYTE_3_1_FS_IC_1               0x2    /* 010b	[2:0] */
 #define R65_SERIAL_BYTE_3_1_CLK_DOMAIN_IC_1       0x0    /* 00b	[4:3] */
-#define R65_SERIAL_BYTE_3_1_TRISTATE_IC_1         0x0    /* 0b	[5] */
+#define R65_SERIAL_BYTE_3_1_TRISTATE_IC_1         0x1    /* 1b	[5] */
 #define R65_SERIAL_BYTE_3_1_FS_IC_1_MASK          0x7
 #define R65_SERIAL_BYTE_3_1_FS_IC_1_SHIFT         0
 #define R65_SERIAL_BYTE_3_1_CLK_DOMAIN_IC_1_MASK  0x18
@@ -3611,7 +3611,7 @@
 /* SERIAL_BYTE_5_1 (IC 1) */
 #define R69_SERIAL_BYTE_5_1_FS_IC_1               0x2    /* 010b	[2:0] */
 #define R69_SERIAL_BYTE_5_1_CLK_DOMAIN_IC_1       0x0    /* 00b	[4:3] */
-#define R69_SERIAL_BYTE_5_1_TRISTATE_IC_1         0x0    /* 0b	[5] */
+#define R69_SERIAL_BYTE_5_1_TRISTATE_IC_1         0x1    /* 1b	[5] */
 #define R69_SERIAL_BYTE_5_1_FS_IC_1_MASK          0x7
 #define R69_SERIAL_BYTE_5_1_FS_IC_1_SHIFT         0
 #define R69_SERIAL_BYTE_5_1_CLK_DOMAIN_IC_1_MASK  0x18
@@ -3648,7 +3648,7 @@
 /* SERIAL_BYTE_6_1 (IC 1) */
 #define R71_SERIAL_BYTE_6_1_FS_IC_1               0x2    /* 010b	[2:0] */
 #define R71_SERIAL_BYTE_6_1_CLK_DOMAIN_IC_1       0x0    /* 00b	[4:3] */
-#define R71_SERIAL_BYTE_6_1_TRISTATE_IC_1         0x0    /* 0b	[5] */
+#define R71_SERIAL_BYTE_6_1_TRISTATE_IC_1         0x1    /* 1b	[5] */
 #define R71_SERIAL_BYTE_6_1_FS_IC_1_MASK          0x7
 #define R71_SERIAL_BYTE_6_1_FS_IC_1_SHIFT         0
 #define R71_SERIAL_BYTE_6_1_CLK_DOMAIN_IC_1_MASK  0x18
@@ -3685,7 +3685,7 @@
 /* SERIAL_BYTE_7_1 (IC 1) */
 #define R73_SERIAL_BYTE_7_1_FS_IC_1               0x2    /* 010b	[2:0] */
 #define R73_SERIAL_BYTE_7_1_CLK_DOMAIN_IC_1       0x0    /* 00b	[4:3] */
-#define R73_SERIAL_BYTE_7_1_TRISTATE_IC_1         0x0    /* 0b	[5] */
+#define R73_SERIAL_BYTE_7_1_TRISTATE_IC_1         0x1    /* 1b	[5] */
 #define R73_SERIAL_BYTE_7_1_FS_IC_1_MASK          0x7
 #define R73_SERIAL_BYTE_7_1_FS_IC_1_SHIFT         0
 #define R73_SERIAL_BYTE_7_1_CLK_DOMAIN_IC_1_MASK  0x18
@@ -6818,16 +6818,16 @@
 #define R282_ASRC_LOCK_ASRC7L_IC_1_SHIFT          7
 
 /* ASRC_MUTE (IC 1) */
-#define R283_ASRC_MUTE_ASRC0M_IC_1                0x0    /* 0b	[0] */
-#define R283_ASRC_MUTE_ASRC1M_IC_1                0x0    /* 0b	[1] */
-#define R283_ASRC_MUTE_ASRC2M_IC_1                0x0    /* 0b	[2] */
-#define R283_ASRC_MUTE_ASRC3M_IC_1                0x0    /* 0b	[3] */
-#define R283_ASRC_MUTE_ASRC4M_IC_1                0x0    /* 0b	[4] */
-#define R283_ASRC_MUTE_ASRC5M_IC_1                0x0    /* 0b	[5] */
-#define R283_ASRC_MUTE_ASRC6M_IC_1                0x0    /* 0b	[6] */
-#define R283_ASRC_MUTE_ASRC7M_IC_1                0x0    /* 0b	[7] */
-#define R283_ASRC_MUTE_ASRC_RAMP0_IC_1            0x0    /* 0b	[8] */
-#define R283_ASRC_MUTE_ASRC_RAMP1_IC_1            0x0    /* 0b	[9] */
+#define R283_ASRC_MUTE_ASRC0M_IC_1                0x1    /* 1b	[0] */
+#define R283_ASRC_MUTE_ASRC1M_IC_1                0x1    /* 1b	[1] */
+#define R283_ASRC_MUTE_ASRC2M_IC_1                0x1    /* 1b	[2] */
+#define R283_ASRC_MUTE_ASRC3M_IC_1                0x1    /* 1b	[3] */
+#define R283_ASRC_MUTE_ASRC4M_IC_1                0x1    /* 1b	[4] */
+#define R283_ASRC_MUTE_ASRC5M_IC_1                0x1    /* 1b	[5] */
+#define R283_ASRC_MUTE_ASRC6M_IC_1                0x1    /* 1b	[6] */
+#define R283_ASRC_MUTE_ASRC7M_IC_1                0x1    /* 1b	[7] */
+#define R283_ASRC_MUTE_ASRC_RAMP0_IC_1            0x1    /* 1b	[8] */
+#define R283_ASRC_MUTE_ASRC_RAMP1_IC_1            0x1    /* 1b	[9] */
 #define R283_ASRC_MUTE_LOCKMUTE_IC_1              0x0    /* 0b	[10] */
 #define R283_ASRC_MUTE_ASRC0M_IC_1_MASK           0x1
 #define R283_ASRC_MUTE_ASRC0M_IC_1_SHIFT          0
