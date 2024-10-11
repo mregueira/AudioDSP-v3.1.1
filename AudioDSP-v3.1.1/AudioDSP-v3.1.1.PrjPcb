@@ -573,11 +573,83 @@ Variation21=Designator=R10_POW|UniqueId=\UPXQJOPP\BWFHJEUG|Kind=0|AlternatePart=
 ParamVariationCount=0
 
 [GeneratedDocument1]
-DocumentPath=Project Outputs for AudioDSP-v3.1.1\AudioDSP-v3.1.1 - BOM\Bill of Materials-AudioDSP-v3.1.1(For Assembly).xlsx
+DocumentPath=Project Outputs for AudioDSP-v3.1.1\AudioDSP-v3.1.1\AudioDSP-v3.1.1-RectHoles.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument2]
+DocumentPath=Project Outputs for AudioDSP-v3.1.1\AudioDSP-v3.1.1\AudioDSP-v3.1.1.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=Project Outputs for AudioDSP-v3.1.1\AudioDSP-v3.1.1\AudioDSP-v3.1.1.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=Project Outputs for AudioDSP-v3.1.1\AudioDSP-v3.1.1\AudioDSP-v3.1.1.G1
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=Project Outputs for AudioDSP-v3.1.1\AudioDSP-v3.1.1\AudioDSP-v3.1.1.G2
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=Project Outputs for AudioDSP-v3.1.1\AudioDSP-v3.1.1\AudioDSP-v3.1.1.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=Project Outputs for AudioDSP-v3.1.1\AudioDSP-v3.1.1\AudioDSP-v3.1.1.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=Project Outputs for AudioDSP-v3.1.1\AudioDSP-v3.1.1\AudioDSP-v3.1.1.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=Project Outputs for AudioDSP-v3.1.1\AudioDSP-v3.1.1\AudioDSP-v3.1.1.GKO
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=Project Outputs for AudioDSP-v3.1.1\AudioDSP-v3.1.1\AudioDSP-v3.1.1.GM1
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=Project Outputs for AudioDSP-v3.1.1\AudioDSP-v3.1.1\AudioDSP-v3.1.1.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=Project Outputs for AudioDSP-v3.1.1\AudioDSP-v3.1.1\AudioDSP-v3.1.1.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=Project Outputs for AudioDSP-v3.1.1\AudioDSP-v3.1.1\AudioDSP-v3.1.1.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=Project Outputs for AudioDSP-v3.1.1\AudioDSP-v3.1.1\AudioDSP-v3.1.1.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=Project Outputs for AudioDSP-v3.1.1\AudioDSP-v3.1.1\AudioDSP-v3.1.1.REP
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=Project Outputs for AudioDSP-v3.1.1\AudioDSP-v3.1.1\AudioDSP-v3.1.1.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=Project Outputs for AudioDSP-v3.1.1\AudioDSP-v3.1.1\AudioDSP-v3.1.1.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=Project Outputs for AudioDSP-v3.1.1\AudioDSP-v3.1.1 - BOM\Bill of Materials-AudioDSP-v3.1.1(For Assembly).xlsx
+DItemRevisionGUID=
+
+[GeneratedDocument19]
 DocumentPath=Project Outputs for AudioDSP-v3.1.1\Design Rule Check - AudioDSP-v3.1.html
+DItemRevisionGUID=
+
+[GeneratedDocument20]
+DocumentPath=Project Outputs for AudioDSP-v3.1.1\AudioDSP-v3.1.1 - Pick and Place\Pick Place for AudioDSP-v3.1.1(For Assembly).csv
 DItemRevisionGUID=
 
 [Configuration1]
