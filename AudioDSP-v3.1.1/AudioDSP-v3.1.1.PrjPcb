@@ -548,7 +548,7 @@ UniqueId=6a6286e3-e0bb-4940-9c31-3c63b7633b0f
 Description=For Assembly
 AllowFabrication=0
 ParameterCount=0
-VariationCount=14
+VariationCount=16
 Variation1=Designator=J8_CTRL|UniqueId=\OEDAQFGJ\THFDJZEN|Kind=1|AlternatePart=
 Variation2=Designator=J6_CTRL|UniqueId=\OEDAQFGJ\MYXRRNZT|Kind=1|AlternatePart=
 Variation3=Designator=J7_CTRL|UniqueId=\OEDAQFGJ\OGUDGZUY|Kind=1|AlternatePart=
@@ -563,6 +563,8 @@ Variation11=Designator=J9_OUT_CONN|UniqueId=\KLWNHVCC\RWDWPSHP|Kind=1|AlternateP
 Variation12=Designator=U2_POW|UniqueId=\UPXQJOPP\LADCIJFV|Kind=1|AlternatePart=
 Variation13=Designator=U1_POW|UniqueId=\UPXQJOPP\BUQGCMIL|Kind=1|AlternatePart=
 Variation14=Designator=U3_POW|UniqueId=\UPXQJOPP\BOFNHPKY|Kind=1|AlternatePart=
+Variation15=Designator=U2_POW|UniqueId=\UPXQJOPP\FIUUXMFD|Kind=0|AlternatePart=
+Variation16=Designator=U1_POW|UniqueId=\UPXQJOPP\EHZZIVQN|Kind=0|AlternatePart=
 ParamVariationCount=0
 
 [GeneratedDocument1]

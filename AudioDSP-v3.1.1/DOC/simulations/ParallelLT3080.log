@@ -1,6 +1,6 @@
 LTspice 24.0.9 for Windows
 Circuit: * C:\Users\marce\OneDrive\Desktop\GitHub Repos\AudioDSP-v3.1.1\AudioDSP-v3.1.1\DOC\simulations\ParallelLT3080.asc
-Start Time: Fri Oct 11 14:34:56 2024
+Start Time: Fri Oct 11 16:55:38 2024
 solver = Normal
 Maximum thread count: 12
 tnom = 27
@@ -8,6 +8,8 @@ temp = 27
 method = modified trap
 Direct Newton iteration for .op point succeeded.
 Ignoring empty pin current: Ix(u2:1)
+Ignoring empty pin current: Ix(u3:1)
 Ignoring empty pin current: Ix(u2:1)
-Total elapsed time: 0.313 seconds.
+Ignoring empty pin current: Ix(u3:1)
+Total elapsed time: 0.483 seconds.
 
