@@ -1,6 +1,6 @@
 LTspice 24.0.9 for Windows
 Circuit: * C:\Users\marce\OneDrive\Desktop\GitHub Repos\AudioDSP-v3.1.1\AudioDSP-v3.1.1\DOC\simulations\ParallelLT3080.asc
-Start Time: Fri Oct 11 16:55:38 2024
+Start Time: Fri Oct 11 18:06:03 2024
 solver = Normal
 Maximum thread count: 12
 tnom = 27
@@ -11,5 +11,5 @@ Ignoring empty pin current: Ix(u2:1)
 Ignoring empty pin current: Ix(u3:1)
 Ignoring empty pin current: Ix(u2:1)
 Ignoring empty pin current: Ix(u3:1)
-Total elapsed time: 0.483 seconds.
+Total elapsed time: 0.426 seconds.
 
